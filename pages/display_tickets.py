@@ -1,7 +1,4 @@
-# pages/display_tickets.py
-
 from PyQt6.QtWidgets import QWidget, QVBoxLayout, QLabel, QComboBox, QPushButton, QTextEdit
-from PyQt6.QtCore import Qt
 from blockchain_ticketing import TicketingBlockchain
 
 

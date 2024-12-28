@@ -1,0 +1,871 @@
+
+2024-12-28 11:27:58,643 - AISimulation - INFO - Initialized AI Simulation
+2024-12-28 11:27:58,644 - AISimulation - INFO - Starting simulation
+2024-12-28 11:27:58,644 - AISimulation - INFO - Successfully created 100 AI users
+2024-12-28 11:27:58,644 - AISimulation - INFO - Starting purchase simulation for event 5536a8c8-6658-4107-a640-5af64a7831f7 with 200 steps
+2024-12-28 11:27:58,644 - AISimulation - INFO - Step 1/200: User AISimUser_024 attempting to purchase 1 vip ticket(s)
+2024-12-28 11:27:58,644 - AISimulation - INFO - Successfully purchased ticket a0582222-d985-44d1-96cc-bc1798779809
+2024-12-28 11:27:58,748 - AISimulation - INFO - Step 2/200: User AISimUser_045 attempting to purchase 1 regular ticket(s)
+2024-12-28 11:27:58,748 - AISimulation - INFO - Successfully purchased ticket 01df0702-f4e4-4964-9fc0-ac91cf872ba4
+2024-12-28 11:27:58,849 - AISimulation - INFO - Step 3/200: User AISimUser_014 attempting to purchase 1 regular ticket(s)
+2024-12-28 11:27:58,849 - AISimulation - INFO - Successfully purchased ticket 63f233bc-c1ed-40b1-808f-27924fff8fb3
+2024-12-28 11:27:58,953 - AISimulation - INFO - Step 6/200: User AISimUser_068 attempting to purchase 3 regular ticket(s)
+2024-12-28 11:27:58,953 - AISimulation - INFO - Successfully purchased ticket 68fe8223-702d-4fe9-9123-ec7b8151d343
+2024-12-28 11:27:59,059 - AISimulation - INFO - Successfully purchased ticket 84f82d25-34dd-4a03-902a-18d7a5d49b2e
+2024-12-28 11:27:59,164 - AISimulation - INFO - Successfully purchased ticket e0c110b8-501b-449c-b36f-61dcd3ca7ff8
+2024-12-28 11:27:59,270 - AISimulation - INFO - Step 8/200: User AISimUser_000 attempting to purchase 2 regular ticket(s)
+2024-12-28 11:27:59,271 - AISimulation - INFO - Successfully purchased ticket c617dc2c-cf5d-46e1-a080-8441c77ce544
+2024-12-28 11:27:59,375 - AISimulation - INFO - Successfully purchased ticket 03e8283e-e75a-406f-b5cf-51d0a82c7665
+2024-12-28 11:27:59,479 - AISimulation - INFO - Step 10/200: User AISimUser_090 attempting to purchase 2 regular ticket(s)
+2024-12-28 11:27:59,480 - AISimulation - WARNING - Suspicious transaction detected for user AISimUser_090
+2024-12-28 11:27:59,480 - AISimulation - INFO - Successfully purchased ticket 9e724fdb-8647-4e88-b34f-e505a63c1ac0
+2024-12-28 11:27:59,583 - AISimulation - WARNING - Purchase failed: Transaction blocked: Fraud detection triggered
+2024-12-28 11:27:59,689 - AISimulation - INFO - Progress: 10/200 steps completed
+2024-12-28 11:27:59,689 - AISimulation - INFO - Success rate: 90.00%
+2024-12-28 11:27:59,690 - AISimulation - INFO - Step 11/200: User AISimUser_053 attempting to purchase 2 regular ticket(s)
+2024-12-28 11:27:59,690 - AISimulation - INFO - Successfully purchased ticket 7e0d04ee-0fe4-4806-8efe-33aa76c08544
+2024-12-28 11:27:59,796 - AISimulation - INFO - Successfully purchased ticket f9b42611-1312-47d5-8735-899a0f58257a
+2024-12-28 11:27:59,901 - AISimulation - INFO - Step 15/200: User AISimUser_040 attempting to purchase 2 vip ticket(s)
+2024-12-28 11:27:59,901 - AISimulation - INFO - Successfully purchased ticket 317a203e-6aa3-4776-b971-894fe9afc205
+2024-12-28 11:28:00,008 - AISimulation - INFO - Successfully purchased ticket 0f2db0ff-db94-47c0-a7af-fa2a9633c12b
+2024-12-28 11:28:00,113 - AISimulation - INFO - Step 16/200: User AISimUser_049 attempting to purchase 1 vip ticket(s)
+2024-12-28 11:28:00,114 - AISimulation - INFO - Successfully purchased ticket 309d8ac1-2845-4777-bc53-d229c3600e2d
+2024-12-28 11:28:00,215 - AISimulation - INFO - Step 17/200: User AISimUser_037 attempting to purchase 1 vip ticket(s)
+2024-12-28 11:28:00,216 - AISimulation - INFO - Successfully purchased ticket 2f47ff7b-d972-4f90-9349-be7268bb13ea
+2024-12-28 11:28:00,321 - AISimulation - INFO - Step 19/200: User AISimUser_065 attempting to purchase 1 vip ticket(s)
+2024-12-28 11:28:00,322 - AISimulation - INFO - Successfully purchased ticket c289ce7d-2357-4dc8-b3a3-024d1c67c3c3
+2024-12-28 11:28:00,424 - AISimulation - INFO - Step 21/200: User AISimUser_024 attempting to purchase 1 regular ticket(s)
+2024-12-28 11:28:00,425 - AISimulation - INFO - Successfully purchased ticket 7e4b95a4-594d-4c26-ad38-b75d1c2c0774
+2024-12-28 11:28:00,530 - AISimulation - INFO - Step 22/200: User AISimUser_082 attempting to purchase 1 regular ticket(s)
+2024-12-28 11:28:00,531 - AISimulation - INFO - Successfully purchased ticket 901bd890-65ec-446a-ad8f-0f42f94aa42f
+2024-12-28 11:28:00,636 - AISimulation - INFO - Step 25/200: User AISimUser_058 attempting to purchase 1 vip ticket(s)
+2024-12-28 11:28:00,636 - AISimulation - INFO - Successfully purchased ticket 3fcfc332-c8df-4946-8350-3d41ccdd0ee7
+2024-12-28 11:28:00,741 - AISimulation - INFO - Step 26/200: User AISimUser_091 attempting to purchase 3 regular ticket(s)
+2024-12-28 11:28:00,742 - AISimulation - INFO - Successfully purchased ticket 69743f8f-0145-42d5-be91-10f6f6cfddd3
+2024-12-28 11:28:00,846 - AISimulation - INFO - Successfully purchased ticket 7f13245e-0a39-4919-8687-8091b3826c13
+2024-12-28 11:28:00,950 - AISimulation - INFO - Successfully purchased ticket 5e754a3d-0393-414c-8781-a446dbb0fbc8
+2024-12-28 11:28:01,056 - AISimulation - INFO - Step 27/200: User AISimUser_092 attempting to purchase 1 vip ticket(s)
+2024-12-28 11:28:01,056 - AISimulation - INFO - Successfully purchased ticket 94531b84-f15c-44ed-adb3-8cc55c6f6c12
+2024-12-28 11:28:01,161 - AISimulation - INFO - Step 28/200: User AISimUser_022 attempting to purchase 1 regular ticket(s)
+2024-12-28 11:28:01,162 - AISimulation - WARNING - Suspicious transaction detected for user AISimUser_022
+2024-12-28 11:28:01,162 - AISimulation - INFO - Successfully purchased ticket d43ab7aa-58e0-407d-b3ec-c038aaa55089
+2024-12-28 11:28:01,267 - AISimulation - INFO - Step 29/200: User AISimUser_012 attempting to purchase 1 regular ticket(s)
+2024-12-28 11:28:01,268 - AISimulation - INFO - Successfully purchased ticket 54072e87-d223-4fa5-a6ef-6f14475e3ddf
+2024-12-28 11:28:01,372 - AISimulation - INFO - Step 30/200: User AISimUser_079 attempting to purchase 1 vip ticket(s)
+2024-12-28 11:28:01,372 - AISimulation - INFO - Successfully purchased ticket 473a6b76-6479-4ef0-9438-a63a2446205a
+2024-12-28 11:28:01,476 - AISimulation - INFO - Progress: 30/200 steps completed
+2024-12-28 11:28:01,476 - AISimulation - INFO - Success rate: 96.30%
+2024-12-28 11:28:01,476 - AISimulation - INFO - Step 31/200: User AISimUser_026 attempting to purchase 1 regular ticket(s)
+2024-12-28 11:28:01,477 - AISimulation - INFO - Successfully purchased ticket 6ab6281f-b59e-493c-827e-d93624221e93
+2024-12-28 11:28:01,581 - AISimulation - INFO - Step 32/200: User AISimUser_032 attempting to purchase 3 regular ticket(s)
+2024-12-28 11:28:01,581 - AISimulation - INFO - Successfully purchased ticket 9e18904b-dcb3-452e-a1a9-cfb4bb600088
+2024-12-28 11:28:01,682 - AISimulation - INFO - Successfully purchased ticket 0d7f41b9-a78a-4fc6-91b7-c658addb3f15
+2024-12-28 11:28:01,784 - AISimulation - INFO - Successfully purchased ticket 0d35b172-e647-4424-a762-7a299d3ede50
+2024-12-28 11:28:01,889 - AISimulation - INFO - Step 35/200: User AISimUser_035 attempting to purchase 1 regular ticket(s)
+2024-12-28 11:28:01,890 - AISimulation - INFO - Successfully purchased ticket c5f1c54b-233d-4062-8c8a-a54254001df3
+2024-12-28 11:28:01,994 - AISimulation - INFO - Step 38/200: User AISimUser_085 attempting to purchase 1 regular ticket(s)
+2024-12-28 11:28:01,995 - AISimulation - INFO - Successfully purchased ticket 200530d7-4278-4fa4-88e7-51b831814107
+2024-12-28 11:28:02,100 - AISimulation - INFO - Step 39/200: User AISimUser_079 attempting to purchase 1 regular ticket(s)
+2024-12-28 11:28:02,100 - AISimulation - INFO - Successfully purchased ticket f4d8ee99-15c2-461c-b410-036364a1886f
+2024-12-28 11:28:02,216 - AISimulation - INFO - Step 40/200: User AISimUser_054 attempting to purchase 1 vip ticket(s)
+2024-12-28 11:28:02,216 - AISimulation - INFO - Successfully purchased ticket a8b9786b-778c-458b-8dce-df9b5411bc82
+2024-12-28 11:28:02,320 - AISimulation - INFO - Progress: 40/200 steps completed
+2024-12-28 11:28:02,320 - AISimulation - INFO - Success rate: 97.14%
+2024-12-28 11:28:02,321 - AISimulation - INFO - Step 42/200: User AISimUser_027 attempting to purchase 1 regular ticket(s)
+2024-12-28 11:28:02,321 - AISimulation - INFO - Successfully purchased ticket 59fa50db-9612-436e-a24f-cd213a3fb351
+2024-12-28 11:28:02,424 - AISimulation - INFO - Step 44/200: User AISimUser_063 attempting to purchase 2 regular ticket(s)
+2024-12-28 11:28:02,425 - AISimulation - INFO - Successfully purchased ticket fef2315b-9b31-4ef6-88ae-b78de9004807
+2024-12-28 11:28:02,525 - AISimulation - WARNING - Purchase failed: Transaction blocked: Fraud detection triggered
+2024-12-28 11:28:02,629 - AISimulation - INFO - Step 45/200: User AISimUser_022 attempting to purchase 2 vip ticket(s)
+2024-12-28 11:28:02,630 - AISimulation - INFO - Successfully purchased ticket a3255429-bdac-4b8a-bef3-b688f238f803
+2024-12-28 11:28:02,734 - AISimulation - INFO - Successfully purchased ticket 90b888d6-4763-4cd6-bf49-d4f555202070
+2024-12-28 11:28:02,839 - AISimulation - INFO - Step 47/200: User AISimUser_035 attempting to purchase 2 vip ticket(s)
+2024-12-28 11:28:02,840 - AISimulation - INFO - Successfully purchased ticket 00e031f6-9d92-42a2-8542-488e08f421c9
+2024-12-28 11:28:02,945 - AISimulation - INFO - Successfully purchased ticket 5e5d39b9-8a2b-4d12-96e7-329177a0af63
+2024-12-28 11:28:03,051 - AISimulation - INFO - Step 49/200: User AISimUser_033 attempting to purchase 1 regular ticket(s)
+2024-12-28 11:28:03,051 - AISimulation - INFO - Successfully purchased ticket 94672c48-a803-47d7-9c28-edfd336dbf64
+2024-12-28 11:28:03,157 - AISimulation - INFO - Step 52/200: User AISimUser_071 attempting to purchase 1 regular ticket(s)
+2024-12-28 11:28:03,157 - AISimulation - INFO - Successfully purchased ticket 2854bc58-e31a-4185-a2fb-3f7959241b5a
+2024-12-28 11:28:03,260 - AISimulation - INFO - Step 53/200: User AISimUser_085 attempting to purchase 1 regular ticket(s)
+2024-12-28 11:28:03,263 - AISimulation - INFO - Successfully purchased ticket 1d36b587-e1f8-43a0-8cb7-6cbf16b42fb5
+2024-12-28 11:28:03,366 - AISimulation - INFO - Step 54/200: User AISimUser_043 attempting to purchase 1 vip ticket(s)
+2024-12-28 11:28:03,366 - AISimulation - INFO - Successfully purchased ticket 51393373-1750-44f7-b962-bfda71809501
+2024-12-28 11:28:03,471 - AISimulation - INFO - Step 55/200: User AISimUser_096 attempting to purchase 2 regular ticket(s)
+2024-12-28 11:28:03,472 - AISimulation - INFO - Successfully purchased ticket 32029eb3-69b0-4011-bc06-4872e9605133
+2024-12-28 11:28:03,577 - AISimulation - INFO - Successfully purchased ticket 783074ff-36df-4a6d-b98f-cdcb75d00a6f
+2024-12-28 11:28:03,682 - AISimulation - INFO - Step 56/200: User AISimUser_093 attempting to purchase 1 regular ticket(s)
+2024-12-28 11:28:03,683 - AISimulation - WARNING - Suspicious transaction detected for user AISimUser_093
+2024-12-28 11:28:03,683 - AISimulation - INFO - Successfully purchased ticket 348ca8ef-aa28-4065-98c3-fe459ede0f8b
+2024-12-28 11:28:03,788 - AISimulation - INFO - Step 57/200: User AISimUser_008 attempting to purchase 1 regular ticket(s)
+2024-12-28 11:28:03,789 - AISimulation - WARNING - Suspicious transaction detected for user AISimUser_008
+2024-12-28 11:28:03,789 - AISimulation - INFO - Successfully purchased ticket 6fef57a3-2e50-4d10-8614-02939e15619a
+2024-12-28 11:28:03,894 - AISimulation - INFO - Step 59/200: User AISimUser_062 attempting to purchase 1 regular ticket(s)
+2024-12-28 11:28:03,894 - AISimulation - WARNING - Purchase failed: Transaction blocked: Fraud detection triggered
+2024-12-28 11:28:03,998 - AISimulation - INFO - Step 60/200: User AISimUser_010 attempting to purchase 2 vip ticket(s)
+2024-12-28 11:28:03,998 - AISimulation - INFO - Successfully purchased ticket b43d26aa-4df0-46f1-bd74-d75cd454d584
+2024-12-28 11:28:04,099 - AISimulation - INFO - Successfully purchased ticket 82e2b771-5de1-4d72-b127-84f30391872e
+2024-12-28 11:28:04,204 - AISimulation - INFO - Progress: 60/200 steps completed
+2024-12-28 11:28:04,204 - AISimulation - INFO - Success rate: 94.34%
+2024-12-28 11:28:04,205 - AISimulation - INFO - Step 63/200: User AISimUser_054 attempting to purchase 1 regular ticket(s)
+2024-12-28 11:28:04,205 - AISimulation - INFO - Successfully purchased ticket 81995318-ac2f-4aca-a25e-8a5d5e43efac
+2024-12-28 11:28:04,309 - AISimulation - INFO - Step 68/200: User AISimUser_066 attempting to purchase 1 regular ticket(s)
+2024-12-28 11:28:04,309 - AISimulation - INFO - Successfully purchased ticket d4fc8f66-2f3e-4518-832b-3d0e681d9971
+2024-12-28 11:28:04,414 - AISimulation - INFO - Step 73/200: User AISimUser_094 attempting to purchase 2 regular ticket(s)
+2024-12-28 11:28:04,415 - AISimulation - INFO - Successfully purchased ticket ef5c124b-c555-4163-8d1a-7ea9d5bd3078
+2024-12-28 11:28:04,516 - AISimulation - INFO - Successfully purchased ticket 95735f41-89be-4e9a-81d1-d2b81ede35ea
+2024-12-28 11:28:04,618 - AISimulation - INFO - Step 75/200: User AISimUser_094 attempting to purchase 1 regular ticket(s)
+2024-12-28 11:28:04,618 - AISimulation - INFO - Successfully purchased ticket 844dbd00-8165-489b-90b1-90f34e1e6623
+2024-12-28 11:28:04,723 - AISimulation - INFO - Step 76/200: User AISimUser_061 attempting to purchase 1 vip ticket(s)
+2024-12-28 11:28:04,724 - AISimulation - INFO - Successfully purchased ticket b910ae0b-ab57-4605-9bf4-69efd7ec742c
+2024-12-28 11:28:04,829 - AISimulation - INFO - Step 78/200: User AISimUser_014 attempting to purchase 1 vip ticket(s)
+2024-12-28 11:28:04,830 - AISimulation - INFO - Successfully purchased ticket 5b9b5850-074f-4bcf-a101-eff7fc6d5e45
+2024-12-28 11:28:04,935 - AISimulation - INFO - Step 82/200: User AISimUser_052 attempting to purchase 3 regular ticket(s)
+2024-12-28 11:28:04,936 - AISimulation - INFO - Successfully purchased ticket 142fe928-e1bb-423d-8282-71808dddbb39
+2024-12-28 11:28:05,042 - AISimulation - INFO - Successfully purchased ticket d8495915-4048-454d-930e-6541bfd3c467
+2024-12-28 11:28:05,143 - AISimulation - INFO - Successfully purchased ticket f621eb52-0812-4beb-8c74-c51d44bd3be6
+2024-12-28 11:28:05,248 - AISimulation - INFO - Step 83/200: User AISimUser_076 attempting to purchase 3 regular ticket(s)
+2024-12-28 11:28:05,249 - AISimulation - INFO - Successfully purchased ticket 4486ce80-f405-4988-a73a-a6463b83f34f
+2024-12-28 11:28:05,350 - AISimulation - WARNING - Suspicious transaction detected for user AISimUser_076
+2024-12-28 11:28:05,350 - AISimulation - INFO - Successfully purchased ticket 8b999b83-43a1-4feb-be5e-c9b4ed5fd54c
+2024-12-28 11:28:05,456 - AISimulation - WARNING - Purchase failed: Transaction blocked: Fraud detection triggered
+2024-12-28 11:28:05,559 - AISimulation - INFO - Step 84/200: User AISimUser_050 attempting to purchase 1 vip ticket(s)
+2024-12-28 11:28:05,560 - AISimulation - INFO - Successfully purchased ticket bc858dac-af48-4c39-954b-c3b1d1c7dbb6
+2024-12-28 11:28:05,664 - AISimulation - INFO - Step 85/200: User AISimUser_082 attempting to purchase 2 vip ticket(s)
+2024-12-28 11:28:05,665 - AISimulation - INFO - Successfully purchased ticket ddb73206-20ec-4f0b-9bfd-1aa64afb99bb
+2024-12-28 11:28:05,768 - AISimulation - INFO - Successfully purchased ticket 2593f794-14be-4817-b144-aaf0babc6b9c
+2024-12-28 11:28:05,871 - AISimulation - INFO - Step 89/200: User AISimUser_020 attempting to purchase 2 regular ticket(s)
+2024-12-28 11:28:05,871 - AISimulation - INFO - Successfully purchased ticket 3cf11aeb-f166-4bed-b56e-99643f0c5ac8
+2024-12-28 11:28:05,973 - AISimulation - INFO - Successfully purchased ticket adbe20a9-6e3e-42fd-8208-3e089c0f7b88
+2024-12-28 11:28:06,077 - AISimulation - INFO - Step 90/200: User AISimUser_060 attempting to purchase 1 regular ticket(s)
+2024-12-28 11:28:06,079 - AISimulation - INFO - Successfully purchased ticket 0ef5112f-8b78-4ea4-b09c-36961420d4f4
+2024-12-28 11:28:06,184 - AISimulation - INFO - Progress: 90/200 steps completed
+2024-12-28 11:28:06,184 - AISimulation - INFO - Success rate: 94.44%
+2024-12-28 11:28:06,184 - AISimulation - INFO - Step 91/200: User AISimUser_032 attempting to purchase 3 vip ticket(s)
+2024-12-28 11:28:06,185 - AISimulation - INFO - Successfully purchased ticket 5b2484e8-226c-4c80-80ba-7140945fd634
+2024-12-28 11:28:06,288 - AISimulation - INFO - Successfully purchased ticket d8a3442f-7c9c-4c17-afa9-9a1d373fbc85
+2024-12-28 11:28:06,394 - AISimulation - WARNING - Purchase failed: Max tickets per user reached
+2024-12-28 11:28:06,498 - AISimulation - INFO - Step 94/200: User AISimUser_040 attempting to purchase 2 vip ticket(s)
+2024-12-28 11:28:06,499 - AISimulation - INFO - Successfully purchased ticket bf189b30-fe69-4d72-8a13-541f0ed6b7c9
+2024-12-28 11:28:06,604 - AISimulation - INFO - Successfully purchased ticket 57961114-af19-4764-bc06-05c73ab26ec2
+2024-12-28 11:28:06,709 - AISimulation - INFO - Step 95/200: User AISimUser_092 attempting to purchase 1 vip ticket(s)
+2024-12-28 11:28:06,709 - AISimulation - INFO - Successfully purchased ticket 1e2dce1a-271d-4e84-bb17-6a2541f99291
+2024-12-28 11:28:06,814 - AISimulation - INFO - Step 96/200: User AISimUser_020 attempting to purchase 1 regular ticket(s)
+2024-12-28 11:28:06,815 - AISimulation - INFO - Successfully purchased ticket 1c447f73-c7e5-4f19-a8a4-c3c62b6a77ad
+2024-12-28 11:28:06,916 - AISimulation - INFO - Step 99/200: User AISimUser_044 attempting to purchase 2 vip ticket(s)
+2024-12-28 11:28:06,918 - AISimulation - INFO - Successfully purchased ticket 678ad7aa-ba79-4581-88bc-327941faa39e
+2024-12-28 11:28:07,022 - AISimulation - INFO - Successfully purchased ticket 86688415-dbf6-407a-b5fb-e5aa4d5eef7f
+2024-12-28 11:28:07,127 - AISimulation - INFO - Step 101/200: User AISimUser_087 attempting to purchase 1 vip ticket(s)
+2024-12-28 11:28:07,128 - AISimulation - INFO - Successfully purchased ticket 0a26c80b-39a8-4430-bd49-4b7370bd758b
+2024-12-28 11:28:07,233 - AISimulation - INFO - Step 102/200: User AISimUser_097 attempting to purchase 3 regular ticket(s)
+2024-12-28 11:28:07,234 - AISimulation - INFO - Successfully purchased ticket 8312d880-5cf1-4fda-9c97-fb0f4ec0feeb
+2024-12-28 11:28:07,337 - AISimulation - INFO - Successfully purchased ticket 82125813-03bb-4af9-8fee-52682fb687c0
+2024-12-28 11:28:07,442 - AISimulation - INFO - Successfully purchased ticket cc3f764d-82d4-45a7-af20-2d4699752787
+2024-12-28 11:28:07,548 - AISimulation - INFO - Step 106/200: User AISimUser_065 attempting to purchase 1 vip ticket(s)
+2024-12-28 11:28:07,549 - AISimulation - INFO - Successfully purchased ticket 0c907962-f4b7-439c-96ca-4bdeaeaf0a20
+2024-12-28 11:28:07,650 - AISimulation - INFO - Step 107/200: User AISimUser_095 attempting to purchase 2 regular ticket(s)
+2024-12-28 11:28:07,650 - AISimulation - INFO - Successfully purchased ticket 8f53f10a-78cc-4bc4-8c49-7ff001745482
+2024-12-28 11:28:07,754 - AISimulation - INFO - Successfully purchased ticket 9aafb5f0-9153-4762-b480-7a9f862d73a9
+2024-12-28 11:28:07,860 - AISimulation - INFO - Step 110/200: User AISimUser_033 attempting to purchase 1 regular ticket(s)
+2024-12-28 11:28:07,860 - AISimulation - INFO - Successfully purchased ticket ee070e82-1573-4e2a-85b1-6454a6a71ce9
+2024-12-28 11:28:07,966 - AISimulation - INFO - Progress: 110/200 steps completed
+2024-12-28 11:28:07,966 - AISimulation - INFO - Success rate: 94.38%
+2024-12-28 11:28:07,966 - AISimulation - INFO - Step 112/200: User AISimUser_062 attempting to purchase 1 regular ticket(s)
+2024-12-28 11:28:07,967 - AISimulation - INFO - Successfully purchased ticket 4878e1c3-814c-4e87-bf65-7326b0615af2
+2024-12-28 11:28:08,068 - AISimulation - INFO - Step 113/200: User AISimUser_070 attempting to purchase 1 regular ticket(s)
+2024-12-28 11:28:08,069 - AISimulation - INFO - Successfully purchased ticket d46d6bb6-3728-4a7a-9382-23c80e150a9f
+2024-12-28 11:28:08,170 - AISimulation - INFO - Step 114/200: User AISimUser_022 attempting to purchase 2 vip ticket(s)
+2024-12-28 11:28:08,171 - AISimulation - INFO - Successfully purchased ticket 4409e027-8498-4ca3-bad8-b39a1ca5d5e3
+2024-12-28 11:28:08,277 - AISimulation - INFO - Successfully purchased ticket 86069c61-9a74-44d2-95bd-388fd62f1da5
+2024-12-28 11:28:08,383 - AISimulation - INFO - Step 115/200: User AISimUser_024 attempting to purchase 1 regular ticket(s)
+2024-12-28 11:28:08,384 - AISimulation - INFO - Successfully purchased ticket 8b88edd2-e2b1-425d-a0df-d18df7ee05e6
+2024-12-28 11:28:08,487 - AISimulation - INFO - Step 116/200: User AISimUser_027 attempting to purchase 1 regular ticket(s)
+2024-12-28 11:28:08,488 - AISimulation - INFO - Successfully purchased ticket c76c778f-98cc-47e2-853c-770dc02fdc09
+2024-12-28 11:28:08,592 - AISimulation - INFO - Step 117/200: User AISimUser_068 attempting to purchase 3 regular ticket(s)
+2024-12-28 11:28:08,593 - AISimulation - INFO - Successfully purchased ticket d57727eb-8c8e-46f3-b93d-fd3b6cdde5e7
+2024-12-28 11:28:08,698 - AISimulation - INFO - Successfully purchased ticket 73d2f0e0-3dda-407e-b62f-148a9d1d8dfa
+2024-12-28 11:28:08,799 - AISimulation - WARNING - Purchase failed: Max tickets per user reached
+2024-12-28 11:28:08,905 - AISimulation - INFO - Step 118/200: User AISimUser_056 attempting to purchase 2 vip ticket(s)
+2024-12-28 11:28:08,905 - AISimulation - INFO - Successfully purchased ticket b00cb977-cfac-4b6d-940d-1cd97ba4af07
+2024-12-28 11:28:09,007 - AISimulation - INFO - Successfully purchased ticket 535d44b1-c4f0-4f4d-8fcf-ca481d20c455
+2024-12-28 11:28:09,113 - AISimulation - INFO - Step 119/200: User AISimUser_009 attempting to purchase 1 vip ticket(s)
+2024-12-28 11:28:09,120 - AISimulation - INFO - Successfully purchased ticket 7fe4345b-0340-4071-bdd7-3374411aed76
+2024-12-28 11:28:09,225 - AISimulation - INFO - Step 124/200: User AISimUser_006 attempting to purchase 1 vip ticket(s)
+2024-12-28 11:28:09,225 - AISimulation - INFO - Successfully purchased ticket 4e4c0c77-2471-485b-86f6-ffe7c6625cf0
+2024-12-28 11:28:09,330 - AISimulation - INFO - Step 125/200: User AISimUser_047 attempting to purchase 2 regular ticket(s)
+2024-12-28 11:28:09,331 - AISimulation - INFO - Successfully purchased ticket 8d953172-4e71-4a71-8765-565e7a885ec8
+2024-12-28 11:28:09,434 - AISimulation - INFO - Successfully purchased ticket 3c3bf1d9-4222-4ba1-9bdb-325279ca3fc4
+2024-12-28 11:28:09,536 - AISimulation - INFO - Step 126/200: User AISimUser_087 attempting to purchase 3 regular ticket(s)
+2024-12-28 11:28:09,536 - AISimulation - INFO - Successfully purchased ticket 9987f06b-5d21-455a-8051-e93fbbb88777
+2024-12-28 11:28:09,638 - AISimulation - INFO - Successfully purchased ticket 0c40769b-fd40-4064-b6d0-29177a8b0e86
+2024-12-28 11:28:09,740 - AISimulation - INFO - Successfully purchased ticket e4223b17-6d41-4c04-99c0-05d7368c76d8
+2024-12-28 11:28:09,842 - AISimulation - INFO - Step 127/200: User AISimUser_008 attempting to purchase 1 vip ticket(s)
+2024-12-28 11:28:09,842 - AISimulation - WARNING - Purchase failed: Transaction blocked: Fraud detection triggered
+2024-12-28 11:28:09,947 - AISimulation - INFO - Step 129/200: User AISimUser_049 attempting to purchase 1 vip ticket(s)
+2024-12-28 11:28:09,948 - AISimulation - INFO - Successfully purchased ticket d0b5a556-3a65-409e-96ad-fe3c40191dae
+2024-12-28 11:28:10,051 - AISimulation - INFO - Step 131/200: User AISimUser_091 attempting to purchase 2 vip ticket(s)
+2024-12-28 11:28:10,051 - AISimulation - WARNING - Purchase failed: Transaction blocked: Fraud detection triggered
+2024-12-28 11:28:10,153 - AISimulation - INFO - Successfully purchased ticket ea72f7bc-723e-402e-bf92-368a687537e7
+2024-12-28 11:28:10,259 - AISimulation - INFO - Step 132/200: User AISimUser_025 attempting to purchase 3 vip ticket(s)
+2024-12-28 11:28:10,259 - AISimulation - INFO - Successfully purchased ticket 90c4bdb9-64a5-466a-bbb1-b6298bf0d755
+2024-12-28 11:28:10,364 - AISimulation - INFO - Successfully purchased ticket 6815f293-5a08-4b98-81f0-6a8b658b0bb4
+2024-12-28 11:28:10,466 - AISimulation - INFO - Successfully purchased ticket c2529ba8-7b0a-4511-bb5e-5a09c9b608c1
+2024-12-28 11:28:10,567 - AISimulation - INFO - Step 135/200: User AISimUser_053 attempting to purchase 2 vip ticket(s)
+2024-12-28 11:28:10,568 - AISimulation - INFO - Successfully purchased ticket ad2867e7-1a9b-42b7-859a-e0ad7965528b
+2024-12-28 11:28:10,672 - AISimulation - INFO - Successfully purchased ticket d6730648-712f-4f0c-97d2-054e8bfcd748
+2024-12-28 11:28:10,778 - AISimulation - INFO - Step 138/200: User AISimUser_083 attempting to purchase 1 regular ticket(s)
+2024-12-28 11:28:10,778 - AISimulation - INFO - Successfully purchased ticket 70bebdf9-99eb-45eb-ab86-8679df5c66d0
+2024-12-28 11:28:10,881 - AISimulation - INFO - Step 140/200: User AISimUser_037 attempting to purchase 1 regular ticket(s)
+2024-12-28 11:28:10,882 - AISimulation - INFO - Successfully purchased ticket 7a2f2ce4-9b72-4646-965e-8cd698faec3e
+2024-12-28 11:28:10,987 - AISimulation - INFO - Progress: 140/200 steps completed
+2024-12-28 11:28:10,987 - AISimulation - INFO - Success rate: 93.22%
+2024-12-28 11:28:10,987 - AISimulation - INFO - Step 142/200: User AISimUser_037 attempting to purchase 1 regular ticket(s)
+2024-12-28 11:28:10,988 - AISimulation - INFO - Successfully purchased ticket 017473e3-0d3e-4f46-b72f-20e70816a665
+2024-12-28 11:28:11,093 - AISimulation - INFO - Step 144/200: User AISimUser_021 attempting to purchase 1 regular ticket(s)
+2024-12-28 11:28:11,093 - AISimulation - WARNING - Purchase failed: Transaction blocked: Fraud detection triggered
+2024-12-28 11:28:11,197 - AISimulation - INFO - Step 145/200: User AISimUser_092 attempting to purchase 1 regular ticket(s)
+2024-12-28 11:28:11,197 - AISimulation - INFO - Successfully purchased ticket e53496c2-f537-438a-a27b-9f5023c4b3a0
+2024-12-28 11:28:11,302 - AISimulation - INFO - Step 147/200: User AISimUser_064 attempting to purchase 2 regular ticket(s)
+2024-12-28 11:28:11,302 - AISimulation - INFO - Successfully purchased ticket a689af8e-9dc1-4b31-854e-2ef3b804c52b
+2024-12-28 11:28:11,408 - AISimulation - INFO - Successfully purchased ticket 602b6f89-fe31-4db9-8e33-151510412930
+2024-12-28 11:28:11,512 - AISimulation - INFO - Step 148/200: User AISimUser_080 attempting to purchase 1 regular ticket(s)
+2024-12-28 11:28:11,513 - AISimulation - INFO - Successfully purchased ticket 86d5322f-e6bc-4b65-8b3f-39eb8de8dff2
+2024-12-28 11:28:11,618 - AISimulation - INFO - Step 149/200: User AISimUser_036 attempting to purchase 3 regular ticket(s)
+2024-12-28 11:28:11,619 - AISimulation - INFO - Successfully purchased ticket 98f83c01-14bd-4c60-8ed7-e327064e45dd
+2024-12-28 11:28:11,720 - AISimulation - INFO - Successfully purchased ticket 4d8b8b9c-084b-43e1-ba9d-71f0dff7a071
+2024-12-28 11:28:11,825 - AISimulation - INFO - Successfully purchased ticket 606ce36f-1462-4120-9cc3-29ce450eaff2
+2024-12-28 11:28:11,930 - AISimulation - INFO - Step 151/200: User AISimUser_052 attempting to purchase 2 regular ticket(s)
+2024-12-28 11:28:11,930 - AISimulation - INFO - Successfully purchased ticket 93550be9-1b30-4989-aa51-8498d791e03b
+2024-12-28 11:28:12,033 - AISimulation - INFO - Successfully purchased ticket 217d66ab-0cef-4870-8158-6a765eca9d5f
+2024-12-28 11:28:12,139 - AISimulation - INFO - Step 154/200: User AISimUser_055 attempting to purchase 1 vip ticket(s)
+2024-12-28 11:28:12,139 - AISimulation - INFO - Successfully purchased ticket d04e4082-18b5-4d75-b48d-537a98bc1c4a
+2024-12-28 11:28:12,242 - AISimulation - INFO - Step 156/200: User AISimUser_031 attempting to purchase 1 regular ticket(s)
+2024-12-28 11:28:12,243 - AISimulation - INFO - Successfully purchased ticket d7f3a315-d12c-4e1e-aa98-795738a59fd8
+2024-12-28 11:28:12,346 - AISimulation - INFO - Step 157/200: User AISimUser_017 attempting to purchase 1 regular ticket(s)
+2024-12-28 11:28:12,347 - AISimulation - INFO - Successfully purchased ticket 33846679-6fe7-460d-b198-5ef00c224965
+2024-12-28 11:28:12,452 - AISimulation - INFO - Step 158/200: User AISimUser_078 attempting to purchase 1 regular ticket(s)
+2024-12-28 11:28:12,452 - AISimulation - INFO - Successfully purchased ticket f9284deb-e7a1-47a4-9a50-fea56f1e00a2
+2024-12-28 11:28:12,555 - AISimulation - INFO - Step 159/200: User AISimUser_067 attempting to purchase 2 vip ticket(s)
+2024-12-28 11:28:12,556 - AISimulation - INFO - Successfully purchased ticket 3ca1d1b6-0e2f-4c4d-b0c2-7c4021789e2f
+2024-12-28 11:28:12,661 - AISimulation - WARNING - Suspicious transaction detected for user AISimUser_067
+2024-12-28 11:28:12,662 - AISimulation - INFO - Successfully purchased ticket 969134d9-6188-42dc-8640-c34a1a2c2f83
+2024-12-28 11:28:12,765 - AISimulation - INFO - Step 160/200: User AISimUser_058 attempting to purchase 3 vip ticket(s)
+2024-12-28 11:28:12,766 - AISimulation - WARNING - Purchase failed: Transaction blocked: Fraud detection triggered
+2024-12-28 11:28:12,869 - AISimulation - INFO - Successfully purchased ticket f8cf7a72-90d9-44d3-af97-bc432232b44b
+2024-12-28 11:28:12,973 - AISimulation - INFO - Successfully purchased ticket dc42e9d0-36a4-43d6-a9c7-b16e10fe5507
+2024-12-28 11:28:13,077 - AISimulation - INFO - Progress: 160/200 steps completed
+2024-12-28 11:28:13,077 - AISimulation - INFO - Success rate: 92.75%
+2024-12-28 11:28:13,077 - AISimulation - INFO - Step 161/200: User AISimUser_059 attempting to purchase 3 regular ticket(s)
+2024-12-28 11:28:13,078 - AISimulation - INFO - Successfully purchased ticket 962cac45-cc26-4e43-961f-287f1e687f0f
+2024-12-28 11:28:13,180 - AISimulation - INFO - Successfully purchased ticket 5e732b3a-c704-45b1-8592-0f0a02af977c
+2024-12-28 11:28:13,285 - AISimulation - WARNING - Suspicious transaction detected for user AISimUser_059
+2024-12-28 11:28:13,286 - AISimulation - INFO - Successfully purchased ticket 69a324e6-d90a-44c2-aeb6-e0bbf3b1401e
+2024-12-28 11:28:13,388 - AISimulation - INFO - Step 162/200: User AISimUser_057 attempting to purchase 1 regular ticket(s)
+2024-12-28 11:28:13,389 - AISimulation - WARNING - Suspicious transaction detected for user AISimUser_057
+2024-12-28 11:28:13,389 - AISimulation - INFO - Successfully purchased ticket d2a8f7dc-236d-40a4-9266-434fac1dc50e
+2024-12-28 11:28:13,492 - AISimulation - INFO - Step 164/200: User AISimUser_073 attempting to purchase 3 regular ticket(s)
+2024-12-28 11:28:13,493 - AISimulation - INFO - Successfully purchased ticket 641b6ace-d575-4968-a61b-01c95d434ad7
+2024-12-28 11:28:13,598 - AISimulation - INFO - Successfully purchased ticket 8436e253-c672-4a4e-ab74-803aa37bb1f4
+2024-12-28 11:28:13,702 - AISimulation - INFO - Successfully purchased ticket 8b7e554c-3426-4f6e-8246-7846c5c5ed54
+2024-12-28 11:28:13,806 - AISimulation - INFO - Step 165/200: User AISimUser_071 attempting to purchase 1 regular ticket(s)
+2024-12-28 11:28:13,807 - AISimulation - INFO - Successfully purchased ticket 3cf43b88-7fcd-4fbd-ade2-681b1dbcc806
+2024-12-28 11:28:13,910 - AISimulation - INFO - Step 168/200: User AISimUser_080 attempting to purchase 1 vip ticket(s)
+2024-12-28 11:28:13,911 - AISimulation - INFO - Successfully purchased ticket b4f22c92-500c-428c-b638-f23f48b25a2f
+2024-12-28 11:28:14,016 - AISimulation - INFO - Step 169/200: User AISimUser_074 attempting to purchase 2 regular ticket(s)
+2024-12-28 11:28:14,017 - AISimulation - INFO - Successfully purchased ticket 55ab0f53-4490-462e-a8ab-839aba01fddf
+2024-12-28 11:28:14,122 - AISimulation - INFO - Successfully purchased ticket 22055fa7-b996-4dfe-8efb-a14ea9e42438
+2024-12-28 11:28:14,222 - AISimulation - INFO - Step 171/200: User AISimUser_025 attempting to purchase 3 regular ticket(s)
+2024-12-28 11:28:14,223 - AISimulation - INFO - Successfully purchased ticket b472ba8a-907d-452a-b8f8-e5d6c089df69
+2024-12-28 11:28:14,327 - AISimulation - INFO - Successfully purchased ticket f5b27a9c-d356-4b3e-aaae-46c0d13d5fec
+2024-12-28 11:28:14,431 - AISimulation - WARNING - Purchase failed: Max tickets per user reached
+2024-12-28 11:28:14,536 - AISimulation - INFO - Step 173/200: User AISimUser_037 attempting to purchase 1 regular ticket(s)
+2024-12-28 11:28:14,537 - AISimulation - WARNING - Suspicious transaction detected for user AISimUser_037
+2024-12-28 11:28:14,537 - AISimulation - INFO - Successfully purchased ticket cbf018c4-464a-4281-9de2-08c0832632b5
+2024-12-28 11:28:14,640 - AISimulation - INFO - Step 174/200: User AISimUser_032 attempting to purchase 1 regular ticket(s)
+2024-12-28 11:28:14,641 - AISimulation - WARNING - Purchase failed: Max tickets per user reached
+2024-12-28 11:28:14,746 - AISimulation - INFO - Step 176/200: User AISimUser_089 attempting to purchase 3 regular ticket(s)
+2024-12-28 11:28:14,747 - AISimulation - INFO - Successfully purchased ticket b292936a-cbbc-4c86-a13e-371c857ce8a9
+2024-12-28 11:28:14,849 - AISimulation - INFO - Successfully purchased ticket 9cbb0e09-add9-489c-9f0f-038bc38802a4
+2024-12-28 11:28:14,954 - AISimulation - INFO - Successfully purchased ticket 46152053-2ccc-4ef4-aea5-180273755754
+2024-12-28 11:28:15,058 - AISimulation - INFO - Step 181/200: User AISimUser_026 attempting to purchase 2 regular ticket(s)
+2024-12-28 11:28:15,059 - AISimulation - INFO - Successfully purchased ticket 03901877-3fc4-4495-99e8-21108d9a6718
+2024-12-28 11:28:15,162 - AISimulation - INFO - Successfully purchased ticket 14b75026-a613-4cdf-a4fe-7bbdb684c817
+2024-12-28 11:28:15,263 - AISimulation - INFO - Step 182/200: User AISimUser_017 attempting to purchase 1 regular ticket(s)
+2024-12-28 11:28:15,264 - AISimulation - INFO - Successfully purchased ticket 9efbccdb-854b-4cca-9dcf-d561ef3c9fd4
+2024-12-28 11:28:15,366 - AISimulation - INFO - Step 184/200: User AISimUser_096 attempting to purchase 1 regular ticket(s)
+2024-12-28 11:28:15,366 - AISimulation - WARNING - Purchase failed: Transaction blocked: Fraud detection triggered
+2024-12-28 11:28:15,472 - AISimulation - INFO - Step 185/200: User AISimUser_011 attempting to purchase 1 regular ticket(s)
+2024-12-28 11:28:15,472 - AISimulation - INFO - Successfully purchased ticket 89244514-718e-4ba7-b877-650d4d56c50d
+2024-12-28 11:28:15,573 - AISimulation - INFO - Step 186/200: User AISimUser_050 attempting to purchase 1 regular ticket(s)
+2024-12-28 11:28:15,573 - AISimulation - INFO - Successfully purchased ticket 707c1801-cae1-4075-b0d4-ffba3af12cc6
+2024-12-28 11:28:15,678 - AISimulation - INFO - Step 188/200: User AISimUser_001 attempting to purchase 1 regular ticket(s)
+2024-12-28 11:28:15,679 - AISimulation - INFO - Successfully purchased ticket 4d7485a9-6a6c-46d8-99c8-15da3516f9de
+2024-12-28 11:28:15,782 - AISimulation - INFO - Step 189/200: User AISimUser_033 attempting to purchase 1 regular ticket(s)
+2024-12-28 11:28:15,783 - AISimulation - WARNING - Suspicious transaction detected for user AISimUser_033
+2024-12-28 11:28:15,783 - AISimulation - INFO - Successfully purchased ticket 56e013f3-6039-40a8-a7c5-4143ca6c264a
+2024-12-28 11:28:15,888 - AISimulation - INFO - Step 190/200: User AISimUser_035 attempting to purchase 3 regular ticket(s)
+2024-12-28 11:28:15,889 - AISimulation - INFO - Successfully purchased ticket b2d0d497-2055-4bd2-aa97-09beb8faceda
+2024-12-28 11:28:15,994 - AISimulation - INFO - Successfully purchased ticket db4944c5-dcc7-43b4-b50f-1dfb0d2dd4b6
+2024-12-28 11:28:16,098 - AISimulation - WARNING - Purchase failed: Max tickets per user reached
+2024-12-28 11:28:16,203 - AISimulation - INFO - Progress: 190/200 steps completed
+2024-12-28 11:28:16,203 - AISimulation - INFO - Success rate: 91.67%
+2024-12-28 11:28:16,204 - AISimulation - INFO - Step 191/200: User AISimUser_005 attempting to purchase 3 regular ticket(s)
+2024-12-28 11:28:16,204 - AISimulation - INFO - Successfully purchased ticket ce1a365a-35a6-47da-bba2-dbb331faa9ec
+2024-12-28 11:28:16,306 - AISimulation - INFO - Successfully purchased ticket fec9f072-9640-482b-adc3-7d55015cb3f0
+2024-12-28 11:28:16,412 - AISimulation - INFO - Successfully purchased ticket 6f6d5b68-8ce8-472a-9deb-4662b0acc8d0
+2024-12-28 11:28:16,517 - AISimulation - INFO - Step 193/200: User AISimUser_070 attempting to purchase 2 regular ticket(s)
+2024-12-28 11:28:16,518 - AISimulation - INFO - Successfully purchased ticket 49cac403-04ca-466a-a848-c643393e4074
+2024-12-28 11:28:16,624 - AISimulation - INFO - Successfully purchased ticket 5d05677c-6bf4-4410-86be-dafb33f62780
+2024-12-28 11:28:16,725 - AISimulation - INFO - Step 195/200: User AISimUser_051 attempting to purchase 1 regular ticket(s)
+2024-12-28 11:28:16,726 - AISimulation - INFO - Successfully purchased ticket 61a2bcc7-c293-42e3-9983-0a57cfbd5ae4
+2024-12-28 11:28:16,831 - AISimulation - INFO - Step 197/200: User AISimUser_087 attempting to purchase 2 regular ticket(s)
+2024-12-28 11:28:16,832 - AISimulation - INFO - Successfully purchased ticket 17f622b8-f154-4142-bb7d-922fb3c22e7f
+2024-12-28 11:28:16,937 - AISimulation - WARNING - Purchase failed: Max tickets per user reached
+2024-12-28 11:28:17,040 - AISimulation - INFO - Step 199/200: User AISimUser_005 attempting to purchase 2 regular ticket(s)
+2024-12-28 11:28:17,041 - AISimulation - INFO - Successfully purchased ticket 973792aa-3a06-4dff-9d1a-91621fd679c5
+2024-12-28 11:28:17,145 - AISimulation - INFO - Successfully purchased ticket d95a5d01-10d8-4322-97c6-b7e74f26a7e8
+2024-12-28 11:28:17,249 - AISimulation - INFO - Step 200/200: User AISimUser_040 attempting to purchase 1 regular ticket(s)
+2024-12-28 11:28:17,249 - AISimulation - INFO - Successfully purchased ticket 41fe9745-4ef0-4426-94dc-77cb25af8a20
+2024-12-28 11:28:17,352 - AISimulation - INFO - Progress: 200/200 steps completed
+2024-12-28 11:28:17,352 - AISimulation - INFO - Success rate: 91.62%
+2024-12-28 11:28:17,353 - AISimulation - INFO - Simulation complete
+2024-12-28 11:32:00,053 - AISimulation - INFO - Initialized AI Simulation
+2024-12-28 11:32:00,053 - AISimulation - INFO - Starting simulation
+2024-12-28 11:32:00,053 - AISimulation - INFO - Successfully created 100 AI users
+2024-12-28 11:32:00,053 - AISimulation - INFO - Starting purchase simulation for event bbaaa62c-0c39-48bf-a602-1d7c6625875f with 200 steps
+2024-12-28 11:32:00,053 - AISimulation - INFO - Step 1/200: User AISimUser_081 attempting to purchase 3 vip ticket(s)
+2024-12-28 11:32:00,053 - AISimulation - INFO - [OK] AISimUser_081 -> vip ticket f3f3a3cc-eaf3-4d2e-9239-186460aac389 purchased
+2024-12-28 11:32:00,053 - AISimulation - INFO - Successfully purchased ticket f3f3a3cc-eaf3-4d2e-9239-186460aac389
+2024-12-28 11:32:00,157 - AISimulation - ERROR - [FRAUD BLOCKED] AISimUser_081 tried vip, blocked by FraudDetector.
+2024-12-28 11:32:00,157 - AISimulation - WARNING - Purchase failed: Transaction blocked: Fraud detection triggered
+2024-12-28 11:32:00,258 - AISimulation - INFO - [OK] AISimUser_081 -> vip ticket a604b191-6e52-489e-90c8-e17392428770 purchased
+2024-12-28 11:32:00,258 - AISimulation - INFO - Successfully purchased ticket a604b191-6e52-489e-90c8-e17392428770
+2024-12-28 11:32:00,363 - AISimulation - INFO - Step 2/200: User AISimUser_015 attempting to purchase 3 regular ticket(s)
+2024-12-28 11:32:00,363 - AISimulation - INFO - [OK] AISimUser_015 -> regular ticket 65185454-1761-4aa4-9611-ce461c7c8e5b purchased
+2024-12-28 11:32:00,363 - AISimulation - INFO - Successfully purchased ticket 65185454-1761-4aa4-9611-ce461c7c8e5b
+2024-12-28 11:32:00,469 - AISimulation - INFO - [OK] AISimUser_015 -> regular ticket 990d2450-fe6c-417d-8502-f3a98e3c8c70 purchased
+2024-12-28 11:32:00,469 - AISimulation - INFO - Successfully purchased ticket 990d2450-fe6c-417d-8502-f3a98e3c8c70
+2024-12-28 11:32:00,574 - AISimulation - INFO - [OK] AISimUser_015 -> regular ticket dbc3ebcb-787f-46e4-81e8-29c74b0f5234 purchased
+2024-12-28 11:32:00,574 - AISimulation - INFO - Successfully purchased ticket dbc3ebcb-787f-46e4-81e8-29c74b0f5234
+2024-12-28 11:32:00,676 - AISimulation - INFO - Step 3/200: User AISimUser_001 attempting to purchase 1 vip ticket(s)
+2024-12-28 11:32:00,677 - AISimulation - INFO - [OK] AISimUser_001 -> vip ticket b40d2621-61d9-4e25-ad1c-112b81610580 purchased
+2024-12-28 11:32:00,677 - AISimulation - INFO - Successfully purchased ticket b40d2621-61d9-4e25-ad1c-112b81610580
+2024-12-28 11:32:00,781 - AISimulation - INFO - Step 4/200: User AISimUser_016 attempting to purchase 1 regular ticket(s)
+2024-12-28 11:32:00,782 - AISimulation - INFO - [OK] AISimUser_016 -> regular ticket a429ce11-f5fa-4bd7-8ea8-5662229a0f23 purchased
+2024-12-28 11:32:00,782 - AISimulation - INFO - Successfully purchased ticket a429ce11-f5fa-4bd7-8ea8-5662229a0f23
+2024-12-28 11:32:00,885 - AISimulation - INFO - Step 5/200: User AISimUser_014 attempting to purchase 1 vip ticket(s)
+2024-12-28 11:32:00,886 - AISimulation - INFO - [OK] AISimUser_014 -> vip ticket 72149f5e-552d-4955-a73e-c17d56090963 purchased
+2024-12-28 11:32:00,886 - AISimulation - INFO - Successfully purchased ticket 72149f5e-552d-4955-a73e-c17d56090963
+2024-12-28 11:32:00,988 - AISimulation - INFO - Step 6/200: User AISimUser_081 attempting to purchase 3 vip ticket(s)
+2024-12-28 11:32:00,989 - AISimulation - INFO - [OK] AISimUser_081 -> vip ticket ae18af7e-ebba-446c-9a7a-9cf77eef33fa purchased
+2024-12-28 11:32:00,989 - AISimulation - INFO - Successfully purchased ticket ae18af7e-ebba-446c-9a7a-9cf77eef33fa
+2024-12-28 11:32:01,092 - AISimulation - INFO - [OK] AISimUser_081 -> vip ticket dc59731a-4ccb-4d49-81c9-3c16c0ebc725 purchased
+2024-12-28 11:32:01,093 - AISimulation - INFO - Successfully purchased ticket dc59731a-4ccb-4d49-81c9-3c16c0ebc725
+2024-12-28 11:32:01,197 - AISimulation - INFO - [OK] AISimUser_081 -> vip ticket a66bcdbd-7f53-4ac0-a696-28f8d293e197 purchased
+2024-12-28 11:32:01,198 - AISimulation - INFO - Successfully purchased ticket a66bcdbd-7f53-4ac0-a696-28f8d293e197
+2024-12-28 11:32:01,306 - AISimulation - INFO - Step 8/200: User AISimUser_063 attempting to purchase 1 vip ticket(s)
+2024-12-28 11:32:01,306 - AISimulation - INFO - [OK] AISimUser_063 -> vip ticket d4eba63e-3cce-4c13-b83d-d0a946b15702 purchased
+2024-12-28 11:32:01,308 - AISimulation - INFO - Successfully purchased ticket d4eba63e-3cce-4c13-b83d-d0a946b15702
+2024-12-28 11:32:01,412 - AISimulation - INFO - Step 9/200: User AISimUser_001 attempting to purchase 1 vip ticket(s)
+2024-12-28 11:32:01,413 - AISimulation - INFO - [OK] AISimUser_001 -> vip ticket cc7be18f-e2cd-4fb1-9699-9aa98a84a245 purchased
+2024-12-28 11:32:01,413 - AISimulation - INFO - Successfully purchased ticket cc7be18f-e2cd-4fb1-9699-9aa98a84a245
+2024-12-28 11:32:01,515 - AISimulation - INFO - Step 11/200: User AISimUser_012 attempting to purchase 2 vip ticket(s)
+2024-12-28 11:32:01,515 - AISimulation - INFO - [OK] AISimUser_012 -> vip ticket 08c79ec8-2014-4249-bfd2-b09be4d47700 purchased
+2024-12-28 11:32:01,515 - AISimulation - INFO - Successfully purchased ticket 08c79ec8-2014-4249-bfd2-b09be4d47700
+2024-12-28 11:32:01,618 - AISimulation - INFO - [OK] AISimUser_012 -> vip ticket 6f2edad4-240b-4b66-8e98-53a19cfea286 purchased
+2024-12-28 11:32:01,619 - AISimulation - INFO - Successfully purchased ticket 6f2edad4-240b-4b66-8e98-53a19cfea286
+2024-12-28 11:32:01,724 - AISimulation - INFO - Step 13/200: User AISimUser_038 attempting to purchase 1 regular ticket(s)
+2024-12-28 11:32:01,725 - AISimulation - ERROR - [FRAUD BLOCKED] AISimUser_038 tried regular, blocked by FraudDetector.
+2024-12-28 11:32:01,725 - AISimulation - WARNING - Purchase failed: Transaction blocked: Fraud detection triggered
+2024-12-28 11:32:01,828 - AISimulation - INFO - Step 14/200: User AISimUser_058 attempting to purchase 2 vip ticket(s)
+2024-12-28 11:32:01,828 - AISimulation - INFO - [OK] AISimUser_058 -> vip ticket 5392854f-efd7-4924-ad4a-98a4f89b2f7f purchased
+2024-12-28 11:32:01,829 - AISimulation - INFO - Successfully purchased ticket 5392854f-efd7-4924-ad4a-98a4f89b2f7f
+2024-12-28 11:32:01,930 - AISimulation - INFO - [OK] AISimUser_058 -> vip ticket a8ff4e17-6ba6-4885-bd45-73694835d94a purchased
+2024-12-28 11:32:01,930 - AISimulation - INFO - Successfully purchased ticket a8ff4e17-6ba6-4885-bd45-73694835d94a
+2024-12-28 11:32:02,036 - AISimulation - INFO - Step 15/200: User AISimUser_015 attempting to purchase 3 regular ticket(s)
+2024-12-28 11:32:02,036 - AISimulation - INFO - [OK] AISimUser_015 -> regular ticket 3e44fe20-fda6-44d4-acbd-fd5e90e6fcd9 purchased
+2024-12-28 11:32:02,036 - AISimulation - INFO - Successfully purchased ticket 3e44fe20-fda6-44d4-acbd-fd5e90e6fcd9
+2024-12-28 11:32:02,141 - AISimulation - INFO - [OK] AISimUser_015 -> regular ticket 844fb73e-200a-4e86-a040-2a42a30a9f9a purchased
+2024-12-28 11:32:02,141 - AISimulation - INFO - Successfully purchased ticket 844fb73e-200a-4e86-a040-2a42a30a9f9a
+2024-12-28 11:32:02,245 - AISimulation - WARNING - [FAILED] AISimUser_015: Max tickets per user reached
+2024-12-28 11:32:02,246 - AISimulation - WARNING - Purchase failed: Max tickets per user reached
+2024-12-28 11:32:02,349 - AISimulation - INFO - Step 16/200: User AISimUser_090 attempting to purchase 1 vip ticket(s)
+2024-12-28 11:32:02,350 - AISimulation - INFO - [OK] AISimUser_090 -> vip ticket 62853963-727f-41d6-b7f8-52f3c4080fdc purchased
+2024-12-28 11:32:02,350 - AISimulation - INFO - Successfully purchased ticket 62853963-727f-41d6-b7f8-52f3c4080fdc
+2024-12-28 11:32:02,456 - AISimulation - INFO - Step 17/200: User AISimUser_066 attempting to purchase 3 vip ticket(s)
+2024-12-28 11:32:02,456 - AISimulation - INFO - [OK] AISimUser_066 -> vip ticket 71b721ad-8daa-40f2-b096-a281114b707f purchased
+2024-12-28 11:32:02,457 - AISimulation - INFO - Successfully purchased ticket 71b721ad-8daa-40f2-b096-a281114b707f
+2024-12-28 11:32:02,557 - AISimulation - INFO - [OK] AISimUser_066 -> vip ticket 33feff82-8a6c-42a2-89f9-f5adcbf1e5e0 purchased
+2024-12-28 11:32:02,558 - AISimulation - INFO - Successfully purchased ticket 33feff82-8a6c-42a2-89f9-f5adcbf1e5e0
+2024-12-28 11:32:02,663 - AISimulation - INFO - [OK] AISimUser_066 -> vip ticket a8f2636c-0b83-425e-a41a-711f3b60c8fe purchased
+2024-12-28 11:32:02,664 - AISimulation - INFO - Successfully purchased ticket a8f2636c-0b83-425e-a41a-711f3b60c8fe
+2024-12-28 11:32:02,767 - AISimulation - INFO - Step 21/200: User AISimUser_051 attempting to purchase 2 regular ticket(s)
+2024-12-28 11:32:02,768 - AISimulation - INFO - [OK] AISimUser_051 -> regular ticket eda77e9c-4cad-42dd-93af-320b18c4b49e purchased
+2024-12-28 11:32:02,768 - AISimulation - INFO - Successfully purchased ticket eda77e9c-4cad-42dd-93af-320b18c4b49e
+2024-12-28 11:32:02,873 - AISimulation - INFO - [OK] AISimUser_051 -> regular ticket 2d64ac31-7d2f-42d3-b5fd-37f04b7ab761 purchased
+2024-12-28 11:32:02,874 - AISimulation - INFO - Successfully purchased ticket 2d64ac31-7d2f-42d3-b5fd-37f04b7ab761
+2024-12-28 11:32:02,979 - AISimulation - INFO - Step 22/200: User AISimUser_032 attempting to purchase 1 vip ticket(s)
+2024-12-28 11:32:02,979 - AISimulation - INFO - [OK] AISimUser_032 -> vip ticket 4d670ccc-0833-4987-81b8-f5e01f946058 purchased
+2024-12-28 11:32:02,979 - AISimulation - INFO - Successfully purchased ticket 4d670ccc-0833-4987-81b8-f5e01f946058
+2024-12-28 11:32:03,083 - AISimulation - INFO - Step 24/200: User AISimUser_011 attempting to purchase 2 regular ticket(s)
+2024-12-28 11:32:03,084 - AISimulation - INFO - [OK] AISimUser_011 -> regular ticket f0564a0f-7bfb-4aad-a37b-c4508a08535b purchased
+2024-12-28 11:32:03,084 - AISimulation - INFO - Successfully purchased ticket f0564a0f-7bfb-4aad-a37b-c4508a08535b
+2024-12-28 11:32:03,186 - AISimulation - WARNING - [SUSPECT] AISimUser_011 buying regular
+2024-12-28 11:32:03,187 - AISimulation - INFO - [OK] AISimUser_011 -> regular ticket bdf06c1f-eb83-4361-946f-385375aa603c purchased
+2024-12-28 11:32:03,187 - AISimulation - INFO - Successfully purchased ticket bdf06c1f-eb83-4361-946f-385375aa603c
+2024-12-28 11:32:03,291 - AISimulation - INFO - Step 25/200: User AISimUser_063 attempting to purchase 1 regular ticket(s)
+2024-12-28 11:32:03,291 - AISimulation - INFO - [OK] AISimUser_063 -> regular ticket 76e455f4-5999-4d80-b009-55e858ac8f24 purchased
+2024-12-28 11:32:03,291 - AISimulation - INFO - Successfully purchased ticket 76e455f4-5999-4d80-b009-55e858ac8f24
+2024-12-28 11:32:03,393 - AISimulation - INFO - Step 26/200: User AISimUser_062 attempting to purchase 2 regular ticket(s)
+2024-12-28 11:32:03,394 - AISimulation - INFO - [OK] AISimUser_062 -> regular ticket 03893c29-89cb-4249-8b4e-0a68715bdfd8 purchased
+2024-12-28 11:32:03,394 - AISimulation - INFO - Successfully purchased ticket 03893c29-89cb-4249-8b4e-0a68715bdfd8
+2024-12-28 11:32:03,500 - AISimulation - INFO - [OK] AISimUser_062 -> regular ticket 864140a7-ca22-4ddb-a1dc-c57e43c0df8e purchased
+2024-12-28 11:32:03,500 - AISimulation - INFO - Successfully purchased ticket 864140a7-ca22-4ddb-a1dc-c57e43c0df8e
+2024-12-28 11:32:03,600 - AISimulation - INFO - Step 27/200: User AISimUser_083 attempting to purchase 1 regular ticket(s)
+2024-12-28 11:32:03,601 - AISimulation - INFO - [OK] AISimUser_083 -> regular ticket 089b170f-a672-4e62-a0b4-b29611e1e7de purchased
+2024-12-28 11:32:03,601 - AISimulation - INFO - Successfully purchased ticket 089b170f-a672-4e62-a0b4-b29611e1e7de
+2024-12-28 11:32:03,706 - AISimulation - INFO - Step 28/200: User AISimUser_046 attempting to purchase 1 vip ticket(s)
+2024-12-28 11:32:03,706 - AISimulation - INFO - [OK] AISimUser_046 -> vip ticket a45ff832-1eb0-4441-9716-a5f7b2b7ced2 purchased
+2024-12-28 11:32:03,707 - AISimulation - INFO - Successfully purchased ticket a45ff832-1eb0-4441-9716-a5f7b2b7ced2
+2024-12-28 11:32:03,810 - AISimulation - INFO - Step 29/200: User AISimUser_011 attempting to purchase 2 vip ticket(s)
+2024-12-28 11:32:03,811 - AISimulation - INFO - [OK] AISimUser_011 -> vip ticket 700b7161-78e4-4718-86af-5cffb9c3f408 purchased
+2024-12-28 11:32:03,811 - AISimulation - INFO - Successfully purchased ticket 700b7161-78e4-4718-86af-5cffb9c3f408
+2024-12-28 11:32:03,913 - AISimulation - INFO - [OK] AISimUser_011 -> vip ticket 25b9f952-4b79-443e-b12d-d0b7e099bc47 purchased
+2024-12-28 11:32:03,913 - AISimulation - INFO - Successfully purchased ticket 25b9f952-4b79-443e-b12d-d0b7e099bc47
+2024-12-28 11:32:04,017 - AISimulation - INFO - Step 30/200: User AISimUser_062 attempting to purchase 3 regular ticket(s)
+2024-12-28 11:32:04,017 - AISimulation - INFO - [OK] AISimUser_062 -> regular ticket b8c184e0-4bf3-4bb2-a10f-33ee6586170a purchased
+2024-12-28 11:32:04,017 - AISimulation - INFO - Successfully purchased ticket b8c184e0-4bf3-4bb2-a10f-33ee6586170a
+2024-12-28 11:32:04,121 - AISimulation - ERROR - [FRAUD BLOCKED] AISimUser_062 tried regular, blocked by FraudDetector.
+2024-12-28 11:32:04,121 - AISimulation - WARNING - Purchase failed: Transaction blocked: Fraud detection triggered
+2024-12-28 11:32:04,224 - AISimulation - INFO - [OK] AISimUser_062 -> regular ticket c3ff806f-bd00-466f-bc2d-855e9ad5bf9b purchased
+2024-12-28 11:32:04,224 - AISimulation - INFO - Successfully purchased ticket c3ff806f-bd00-466f-bc2d-855e9ad5bf9b
+2024-12-28 11:32:04,326 - AISimulation - INFO - Progress: 30/200 steps completed
+2024-12-28 11:32:04,327 - AISimulation - INFO - Success rate: 90.24%
+2024-12-28 11:32:04,327 - AISimulation - INFO - Step 31/200: User AISimUser_058 attempting to purchase 1 vip ticket(s)
+2024-12-28 11:32:04,327 - AISimulation - INFO - [OK] AISimUser_058 -> vip ticket fadf56f3-2c39-4be9-993f-6dcf706978c4 purchased
+2024-12-28 11:32:04,327 - AISimulation - INFO - Successfully purchased ticket fadf56f3-2c39-4be9-993f-6dcf706978c4
+2024-12-28 11:32:04,431 - AISimulation - INFO - Step 33/200: User AISimUser_088 attempting to purchase 1 regular ticket(s)
+2024-12-28 11:32:04,432 - AISimulation - INFO - [OK] AISimUser_088 -> regular ticket 55864646-2b97-4a36-9d65-6d4bc8cc3dcd purchased
+2024-12-28 11:32:04,432 - AISimulation - INFO - Successfully purchased ticket 55864646-2b97-4a36-9d65-6d4bc8cc3dcd
+2024-12-28 11:32:04,537 - AISimulation - INFO - Step 34/200: User AISimUser_098 attempting to purchase 1 regular ticket(s)
+2024-12-28 11:32:04,538 - AISimulation - INFO - [OK] AISimUser_098 -> regular ticket d2721231-cd3b-4727-97dc-a37f937599cd purchased
+2024-12-28 11:32:04,538 - AISimulation - INFO - Successfully purchased ticket d2721231-cd3b-4727-97dc-a37f937599cd
+2024-12-28 11:32:04,642 - AISimulation - INFO - Step 35/200: User AISimUser_095 attempting to purchase 2 vip ticket(s)
+2024-12-28 11:32:04,643 - AISimulation - INFO - [OK] AISimUser_095 -> vip ticket 3dd997e8-780f-4125-a91b-5644a969d535 purchased
+2024-12-28 11:32:04,643 - AISimulation - INFO - Successfully purchased ticket 3dd997e8-780f-4125-a91b-5644a969d535
+2024-12-28 11:32:04,747 - AISimulation - INFO - [OK] AISimUser_095 -> vip ticket f6504730-55bb-4902-a26c-9e5c9baf108c purchased
+2024-12-28 11:32:04,747 - AISimulation - INFO - Successfully purchased ticket f6504730-55bb-4902-a26c-9e5c9baf108c
+2024-12-28 11:32:04,852 - AISimulation - INFO - Step 36/200: User AISimUser_091 attempting to purchase 1 regular ticket(s)
+2024-12-28 11:32:04,853 - AISimulation - INFO - [OK] AISimUser_091 -> regular ticket 39d3c747-cb2f-41b9-b4f3-8fc3d5bc0708 purchased
+2024-12-28 11:32:04,853 - AISimulation - INFO - Successfully purchased ticket 39d3c747-cb2f-41b9-b4f3-8fc3d5bc0708
+2024-12-28 11:32:04,959 - AISimulation - INFO - Step 37/200: User AISimUser_041 attempting to purchase 1 vip ticket(s)
+2024-12-28 11:32:04,960 - AISimulation - INFO - [OK] AISimUser_041 -> vip ticket deadd8b0-f86e-464a-b8d0-2a9fb036747f purchased
+2024-12-28 11:32:04,960 - AISimulation - INFO - Successfully purchased ticket deadd8b0-f86e-464a-b8d0-2a9fb036747f
+2024-12-28 11:32:05,064 - AISimulation - INFO - Step 38/200: User AISimUser_028 attempting to purchase 2 vip ticket(s)
+2024-12-28 11:32:05,064 - AISimulation - INFO - [OK] AISimUser_028 -> vip ticket e86bb598-1c02-4dab-817a-7d8f7262e119 purchased
+2024-12-28 11:32:05,064 - AISimulation - INFO - Successfully purchased ticket e86bb598-1c02-4dab-817a-7d8f7262e119
+2024-12-28 11:32:05,169 - AISimulation - INFO - [OK] AISimUser_028 -> vip ticket b30d0159-222f-4851-9dec-d700a319d37b purchased
+2024-12-28 11:32:05,169 - AISimulation - INFO - Successfully purchased ticket b30d0159-222f-4851-9dec-d700a319d37b
+2024-12-28 11:32:05,274 - AISimulation - INFO - Step 39/200: User AISimUser_088 attempting to purchase 1 regular ticket(s)
+2024-12-28 11:32:05,275 - AISimulation - INFO - [OK] AISimUser_088 -> regular ticket ab412203-69d3-4381-966f-ba1517879c46 purchased
+2024-12-28 11:32:05,275 - AISimulation - INFO - Successfully purchased ticket ab412203-69d3-4381-966f-ba1517879c46
+2024-12-28 11:32:05,380 - AISimulation - INFO - Step 40/200: User AISimUser_093 attempting to purchase 1 regular ticket(s)
+2024-12-28 11:32:05,380 - AISimulation - INFO - [OK] AISimUser_093 -> regular ticket 850b162b-d1c9-428d-81e9-1b4dccaca16a purchased
+2024-12-28 11:32:05,381 - AISimulation - INFO - Successfully purchased ticket 850b162b-d1c9-428d-81e9-1b4dccaca16a
+2024-12-28 11:32:05,486 - AISimulation - INFO - Progress: 40/200 steps completed
+2024-12-28 11:32:05,487 - AISimulation - INFO - Success rate: 92.31%
+2024-12-28 11:32:05,487 - AISimulation - INFO - Step 42/200: User AISimUser_056 attempting to purchase 1 vip ticket(s)
+2024-12-28 11:32:05,488 - AISimulation - INFO - [OK] AISimUser_056 -> vip ticket dc938f79-4000-4a6e-ba96-cbbab31ca418 purchased
+2024-12-28 11:32:05,488 - AISimulation - INFO - Successfully purchased ticket dc938f79-4000-4a6e-ba96-cbbab31ca418
+2024-12-28 11:32:05,592 - AISimulation - INFO - Step 44/200: User AISimUser_044 attempting to purchase 1 regular ticket(s)
+2024-12-28 11:32:05,592 - AISimulation - INFO - [OK] AISimUser_044 -> regular ticket 6fa45073-72c9-4f0d-ae12-ca3f12ee8b54 purchased
+2024-12-28 11:32:05,593 - AISimulation - INFO - Successfully purchased ticket 6fa45073-72c9-4f0d-ae12-ca3f12ee8b54
+2024-12-28 11:32:05,698 - AISimulation - INFO - Step 45/200: User AISimUser_039 attempting to purchase 1 regular ticket(s)
+2024-12-28 11:32:05,698 - AISimulation - INFO - [OK] AISimUser_039 -> regular ticket c22560f1-abc4-49c6-9f54-216c6874ad38 purchased
+2024-12-28 11:32:05,698 - AISimulation - INFO - Successfully purchased ticket c22560f1-abc4-49c6-9f54-216c6874ad38
+2024-12-28 11:32:05,800 - AISimulation - INFO - Step 48/200: User AISimUser_027 attempting to purchase 1 regular ticket(s)
+2024-12-28 11:32:05,800 - AISimulation - WARNING - [SUSPECT] AISimUser_027 buying regular
+2024-12-28 11:32:05,800 - AISimulation - INFO - [OK] AISimUser_027 -> regular ticket c3a174fa-8b7f-40d1-81c1-53524e3fef10 purchased
+2024-12-28 11:32:05,800 - AISimulation - INFO - Successfully purchased ticket c3a174fa-8b7f-40d1-81c1-53524e3fef10
+2024-12-28 11:32:05,904 - AISimulation - INFO - Step 49/200: User AISimUser_018 attempting to purchase 2 vip ticket(s)
+2024-12-28 11:32:05,905 - AISimulation - INFO - [OK] AISimUser_018 -> vip ticket 77201864-3a2c-466e-9ac1-6cefdebfabc5 purchased
+2024-12-28 11:32:05,905 - AISimulation - INFO - Successfully purchased ticket 77201864-3a2c-466e-9ac1-6cefdebfabc5
+2024-12-28 11:32:06,007 - AISimulation - WARNING - [SUSPECT] AISimUser_018 buying vip
+2024-12-28 11:32:06,008 - AISimulation - INFO - [OK] AISimUser_018 -> vip ticket 01f2c8b9-0a09-40cd-8b2f-8c678d3c2593 purchased
+2024-12-28 11:32:06,008 - AISimulation - INFO - Successfully purchased ticket 01f2c8b9-0a09-40cd-8b2f-8c678d3c2593
+2024-12-28 11:32:06,113 - AISimulation - INFO - Step 52/200: User AISimUser_016 attempting to purchase 2 vip ticket(s)
+2024-12-28 11:32:06,114 - AISimulation - INFO - [OK] AISimUser_016 -> vip ticket d7f41feb-cf13-47eb-83bf-3795d639c2e3 purchased
+2024-12-28 11:32:06,114 - AISimulation - INFO - Successfully purchased ticket d7f41feb-cf13-47eb-83bf-3795d639c2e3
+2024-12-28 11:32:06,219 - AISimulation - INFO - [OK] AISimUser_016 -> vip ticket 643e638e-b8b0-4084-a780-377cac3300fc purchased
+2024-12-28 11:32:06,220 - AISimulation - INFO - Successfully purchased ticket 643e638e-b8b0-4084-a780-377cac3300fc
+2024-12-28 11:32:06,321 - AISimulation - INFO - Step 54/200: User AISimUser_003 attempting to purchase 1 vip ticket(s)
+2024-12-28 11:32:06,322 - AISimulation - INFO - [OK] AISimUser_003 -> vip ticket 67bc9f7e-b9a2-46c7-a023-12c1a0b653bf purchased
+2024-12-28 11:32:06,322 - AISimulation - INFO - Successfully purchased ticket 67bc9f7e-b9a2-46c7-a023-12c1a0b653bf
+2024-12-28 11:32:06,427 - AISimulation - INFO - Step 56/200: User AISimUser_093 attempting to purchase 1 regular ticket(s)
+2024-12-28 11:32:06,427 - AISimulation - ERROR - [FRAUD BLOCKED] AISimUser_093 tried regular, blocked by FraudDetector.
+2024-12-28 11:32:06,427 - AISimulation - WARNING - Purchase failed: Transaction blocked: Fraud detection triggered
+2024-12-28 11:32:06,532 - AISimulation - INFO - Step 58/200: User AISimUser_039 attempting to purchase 1 regular ticket(s)
+2024-12-28 11:32:06,533 - AISimulation - INFO - [OK] AISimUser_039 -> regular ticket 3d5b945a-8488-4444-ba2d-9905b5843158 purchased
+2024-12-28 11:32:06,533 - AISimulation - INFO - Successfully purchased ticket 3d5b945a-8488-4444-ba2d-9905b5843158
+2024-12-28 11:32:06,636 - AISimulation - INFO - Step 61/200: User AISimUser_029 attempting to purchase 1 regular ticket(s)
+2024-12-28 11:32:06,637 - AISimulation - INFO - [OK] AISimUser_029 -> regular ticket 2359b441-87c3-49fa-bd6d-98da97e1b8e2 purchased
+2024-12-28 11:32:06,637 - AISimulation - INFO - Successfully purchased ticket 2359b441-87c3-49fa-bd6d-98da97e1b8e2
+2024-12-28 11:32:06,739 - AISimulation - INFO - Step 62/200: User AISimUser_007 attempting to purchase 1 vip ticket(s)
+2024-12-28 11:32:06,739 - AISimulation - INFO - [OK] AISimUser_007 -> vip ticket ea0f693e-e763-4bb8-822c-dc657e415fdd purchased
+2024-12-28 11:32:06,740 - AISimulation - INFO - Successfully purchased ticket ea0f693e-e763-4bb8-822c-dc657e415fdd
+2024-12-28 11:32:06,845 - AISimulation - INFO - Step 64/200: User AISimUser_088 attempting to purchase 1 vip ticket(s)
+2024-12-28 11:32:06,845 - AISimulation - INFO - [OK] AISimUser_088 -> vip ticket 75ff1605-42fc-4ec1-8f62-6d3036f30dbb purchased
+2024-12-28 11:32:06,846 - AISimulation - INFO - Successfully purchased ticket 75ff1605-42fc-4ec1-8f62-6d3036f30dbb
+2024-12-28 11:32:06,951 - AISimulation - INFO - Step 66/200: User AISimUser_020 attempting to purchase 1 regular ticket(s)
+2024-12-28 11:32:06,951 - AISimulation - INFO - [OK] AISimUser_020 -> regular ticket a022c9da-6748-4386-8ac5-e2dfb086bc56 purchased
+2024-12-28 11:32:06,951 - AISimulation - INFO - Successfully purchased ticket a022c9da-6748-4386-8ac5-e2dfb086bc56
+2024-12-28 11:32:07,053 - AISimulation - INFO - Step 67/200: User AISimUser_006 attempting to purchase 1 vip ticket(s)
+2024-12-28 11:32:07,054 - AISimulation - WARNING - [SUSPECT] AISimUser_006 buying vip
+2024-12-28 11:32:07,054 - AISimulation - INFO - [OK] AISimUser_006 -> vip ticket 8174b4d9-2d36-4fd0-b6d5-2b0148e1ad1e purchased
+2024-12-28 11:32:07,054 - AISimulation - INFO - Successfully purchased ticket 8174b4d9-2d36-4fd0-b6d5-2b0148e1ad1e
+2024-12-28 11:32:07,158 - AISimulation - INFO - Step 68/200: User AISimUser_005 attempting to purchase 1 vip ticket(s)
+2024-12-28 11:32:07,161 - AISimulation - INFO - [OK] AISimUser_005 -> vip ticket 562eb1a7-eaba-42b1-891c-494b4c2ac1a1 purchased
+2024-12-28 11:32:07,163 - AISimulation - INFO - Successfully purchased ticket 562eb1a7-eaba-42b1-891c-494b4c2ac1a1
+2024-12-28 11:32:07,264 - AISimulation - INFO - Step 71/200: User AISimUser_083 attempting to purchase 1 regular ticket(s)
+2024-12-28 11:32:07,265 - AISimulation - INFO - [OK] AISimUser_083 -> regular ticket 61ab9565-2209-4929-975b-47bfe1c1c2d5 purchased
+2024-12-28 11:32:07,265 - AISimulation - INFO - Successfully purchased ticket 61ab9565-2209-4929-975b-47bfe1c1c2d5
+2024-12-28 11:32:07,369 - AISimulation - INFO - Step 74/200: User AISimUser_042 attempting to purchase 1 regular ticket(s)
+2024-12-28 11:32:07,369 - AISimulation - INFO - [OK] AISimUser_042 -> regular ticket b7102893-4457-441a-80f1-ba176191d653 purchased
+2024-12-28 11:32:07,370 - AISimulation - INFO - Successfully purchased ticket b7102893-4457-441a-80f1-ba176191d653
+2024-12-28 11:32:07,474 - AISimulation - INFO - Step 76/200: User AISimUser_096 attempting to purchase 1 regular ticket(s)
+2024-12-28 11:32:07,474 - AISimulation - INFO - [OK] AISimUser_096 -> regular ticket dfadb1b4-aec9-4494-b17b-3ed38a4301d2 purchased
+2024-12-28 11:32:07,474 - AISimulation - INFO - Successfully purchased ticket dfadb1b4-aec9-4494-b17b-3ed38a4301d2
+2024-12-28 11:32:07,579 - AISimulation - INFO - Step 77/200: User AISimUser_085 attempting to purchase 1 vip ticket(s)
+2024-12-28 11:32:07,580 - AISimulation - ERROR - [FRAUD BLOCKED] AISimUser_085 tried vip, blocked by FraudDetector.
+2024-12-28 11:32:07,580 - AISimulation - WARNING - Purchase failed: Transaction blocked: Fraud detection triggered
+2024-12-28 11:32:07,682 - AISimulation - INFO - Step 80/200: User AISimUser_078 attempting to purchase 1 regular ticket(s)
+2024-12-28 11:32:07,683 - AISimulation - INFO - [OK] AISimUser_078 -> regular ticket fa2ddd41-924d-484d-afe6-c8449b79676b purchased
+2024-12-28 11:32:07,683 - AISimulation - INFO - Successfully purchased ticket fa2ddd41-924d-484d-afe6-c8449b79676b
+2024-12-28 11:32:07,786 - AISimulation - INFO - Progress: 80/200 steps completed
+2024-12-28 11:32:07,786 - AISimulation - INFO - Success rate: 91.89%
+2024-12-28 11:32:07,786 - AISimulation - INFO - Step 82/200: User AISimUser_037 attempting to purchase 2 regular ticket(s)
+2024-12-28 11:32:07,787 - AISimulation - INFO - [OK] AISimUser_037 -> regular ticket e81f6037-aeea-43d3-9bcf-299e78bbea81 purchased
+2024-12-28 11:32:07,787 - AISimulation - INFO - Successfully purchased ticket e81f6037-aeea-43d3-9bcf-299e78bbea81
+2024-12-28 11:32:07,891 - AISimulation - WARNING - [SUSPECT] AISimUser_037 buying regular
+2024-12-28 11:32:07,892 - AISimulation - INFO - [OK] AISimUser_037 -> regular ticket 227893d8-914a-4284-9566-70e5c7c57dae purchased
+2024-12-28 11:32:07,892 - AISimulation - INFO - Successfully purchased ticket 227893d8-914a-4284-9566-70e5c7c57dae
+2024-12-28 11:32:07,996 - AISimulation - INFO - Step 83/200: User AISimUser_095 attempting to purchase 2 regular ticket(s)
+2024-12-28 11:32:07,997 - AISimulation - INFO - [OK] AISimUser_095 -> regular ticket 309172cd-853a-42aa-b400-b8420ae8230f purchased
+2024-12-28 11:32:07,997 - AISimulation - INFO - Successfully purchased ticket 309172cd-853a-42aa-b400-b8420ae8230f
+2024-12-28 11:32:08,101 - AISimulation - INFO - [OK] AISimUser_095 -> regular ticket b81f70c7-12dc-4d08-a56f-3ccce83fa007 purchased
+2024-12-28 11:32:08,101 - AISimulation - INFO - Successfully purchased ticket b81f70c7-12dc-4d08-a56f-3ccce83fa007
+2024-12-28 11:32:08,202 - AISimulation - INFO - Step 87/200: User AISimUser_047 attempting to purchase 1 vip ticket(s)
+2024-12-28 11:32:08,203 - AISimulation - INFO - [OK] AISimUser_047 -> vip ticket 5eb236bc-c7c0-451d-ad3a-52537cf882c2 purchased
+2024-12-28 11:32:08,203 - AISimulation - INFO - Successfully purchased ticket 5eb236bc-c7c0-451d-ad3a-52537cf882c2
+2024-12-28 11:32:08,308 - AISimulation - INFO - Step 88/200: User AISimUser_012 attempting to purchase 2 regular ticket(s)
+2024-12-28 11:32:08,309 - AISimulation - INFO - [OK] AISimUser_012 -> regular ticket 0ff4883d-7ef4-4916-bf46-24357e4bc7c6 purchased
+2024-12-28 11:32:08,310 - AISimulation - INFO - Successfully purchased ticket 0ff4883d-7ef4-4916-bf46-24357e4bc7c6
+2024-12-28 11:32:08,415 - AISimulation - WARNING - [SUSPECT] AISimUser_012 buying regular
+2024-12-28 11:32:08,415 - AISimulation - INFO - [OK] AISimUser_012 -> regular ticket 16e87153-19f2-435d-8dcf-22b99f949e1a purchased
+2024-12-28 11:32:08,416 - AISimulation - INFO - Successfully purchased ticket 16e87153-19f2-435d-8dcf-22b99f949e1a
+2024-12-28 11:32:08,521 - AISimulation - INFO - Step 89/200: User AISimUser_048 attempting to purchase 1 vip ticket(s)
+2024-12-28 11:32:08,521 - AISimulation - WARNING - [SUSPECT] AISimUser_048 buying vip
+2024-12-28 11:32:08,521 - AISimulation - INFO - [OK] AISimUser_048 -> vip ticket 5fb7f5d7-c2d1-459e-b250-5d35d67a9569 purchased
+2024-12-28 11:32:08,521 - AISimulation - INFO - Successfully purchased ticket 5fb7f5d7-c2d1-459e-b250-5d35d67a9569
+2024-12-28 11:32:08,626 - AISimulation - INFO - Step 91/200: User AISimUser_023 attempting to purchase 1 vip ticket(s)
+2024-12-28 11:32:08,626 - AISimulation - INFO - [OK] AISimUser_023 -> vip ticket 3719726e-1421-438e-9ab0-72e37e8ac10e purchased
+2024-12-28 11:32:08,626 - AISimulation - INFO - Successfully purchased ticket 3719726e-1421-438e-9ab0-72e37e8ac10e
+2024-12-28 11:32:08,731 - AISimulation - INFO - Step 92/200: User AISimUser_026 attempting to purchase 2 regular ticket(s)
+2024-12-28 11:32:08,731 - AISimulation - INFO - [OK] AISimUser_026 -> regular ticket 34dba4c1-851f-4f55-9602-4e709d486776 purchased
+2024-12-28 11:32:08,732 - AISimulation - INFO - Successfully purchased ticket 34dba4c1-851f-4f55-9602-4e709d486776
+2024-12-28 11:32:08,835 - AISimulation - INFO - [OK] AISimUser_026 -> regular ticket 504f4f64-f0b9-4181-b461-1702427ae930 purchased
+2024-12-28 11:32:08,836 - AISimulation - INFO - Successfully purchased ticket 504f4f64-f0b9-4181-b461-1702427ae930
+2024-12-28 11:32:08,938 - AISimulation - INFO - Step 93/200: User AISimUser_010 attempting to purchase 1 vip ticket(s)
+2024-12-28 11:32:08,939 - AISimulation - INFO - [OK] AISimUser_010 -> vip ticket e0935ca5-0540-4a74-bcd5-e3ec46c31401 purchased
+2024-12-28 11:32:08,939 - AISimulation - INFO - Successfully purchased ticket e0935ca5-0540-4a74-bcd5-e3ec46c31401
+2024-12-28 11:32:09,044 - AISimulation - INFO - Step 94/200: User AISimUser_038 attempting to purchase 2 vip ticket(s)
+2024-12-28 11:32:09,045 - AISimulation - INFO - [OK] AISimUser_038 -> vip ticket d8de70f2-8a9a-45b8-a6e7-f2ee8776d319 purchased
+2024-12-28 11:32:09,045 - AISimulation - INFO - Successfully purchased ticket d8de70f2-8a9a-45b8-a6e7-f2ee8776d319
+2024-12-28 11:32:09,150 - AISimulation - INFO - [OK] AISimUser_038 -> vip ticket 71f40bd5-da0b-4c12-84d5-9f6541e5c889 purchased
+2024-12-28 11:32:09,151 - AISimulation - INFO - Successfully purchased ticket 71f40bd5-da0b-4c12-84d5-9f6541e5c889
+2024-12-28 11:32:09,253 - AISimulation - INFO - Step 97/200: User AISimUser_035 attempting to purchase 1 vip ticket(s)
+2024-12-28 11:32:09,253 - AISimulation - INFO - [OK] AISimUser_035 -> vip ticket 3a83e4d1-faac-4a1b-8196-bc9b49b2fbb5 purchased
+2024-12-28 11:32:09,253 - AISimulation - INFO - Successfully purchased ticket 3a83e4d1-faac-4a1b-8196-bc9b49b2fbb5
+2024-12-28 11:32:09,357 - AISimulation - INFO - Step 100/200: User AISimUser_095 attempting to purchase 1 regular ticket(s)
+2024-12-28 11:32:09,358 - AISimulation - ERROR - [FRAUD BLOCKED] AISimUser_095 tried regular, blocked by FraudDetector.
+2024-12-28 11:32:09,358 - AISimulation - WARNING - Purchase failed: Transaction blocked: Fraud detection triggered
+2024-12-28 11:32:09,461 - AISimulation - INFO - Progress: 100/200 steps completed
+2024-12-28 11:32:09,462 - AISimulation - INFO - Success rate: 92.22%
+2024-12-28 11:32:09,462 - AISimulation - INFO - Step 101/200: User AISimUser_074 attempting to purchase 1 regular ticket(s)
+2024-12-28 11:32:09,462 - AISimulation - INFO - [OK] AISimUser_074 -> regular ticket 6ce91d5f-ffcc-4d21-a998-72fabf0dfe08 purchased
+2024-12-28 11:32:09,462 - AISimulation - INFO - Successfully purchased ticket 6ce91d5f-ffcc-4d21-a998-72fabf0dfe08
+2024-12-28 11:32:09,568 - AISimulation - INFO - Step 102/200: User AISimUser_071 attempting to purchase 1 regular ticket(s)
+2024-12-28 11:32:09,568 - AISimulation - INFO - [OK] AISimUser_071 -> regular ticket 34ea81cd-29b2-4d9b-9d82-41040002acb3 purchased
+2024-12-28 11:32:09,568 - AISimulation - INFO - Successfully purchased ticket 34ea81cd-29b2-4d9b-9d82-41040002acb3
+2024-12-28 11:32:09,670 - AISimulation - INFO - Step 103/200: User AISimUser_065 attempting to purchase 1 regular ticket(s)
+2024-12-28 11:32:09,670 - AISimulation - INFO - [OK] AISimUser_065 -> regular ticket d5cd1d29-d038-4690-8fa2-5d386816f5cb purchased
+2024-12-28 11:32:09,671 - AISimulation - INFO - Successfully purchased ticket d5cd1d29-d038-4690-8fa2-5d386816f5cb
+2024-12-28 11:32:09,776 - AISimulation - INFO - Step 104/200: User AISimUser_097 attempting to purchase 3 regular ticket(s)
+2024-12-28 11:32:09,777 - AISimulation - INFO - [OK] AISimUser_097 -> regular ticket 5eb40b29-63d0-449c-8bd1-780685fa6253 purchased
+2024-12-28 11:32:09,777 - AISimulation - INFO - Successfully purchased ticket 5eb40b29-63d0-449c-8bd1-780685fa6253
+2024-12-28 11:32:09,879 - AISimulation - INFO - [OK] AISimUser_097 -> regular ticket 51f24f69-d51a-4ae6-9c88-b7cae3502fbe purchased
+2024-12-28 11:32:09,880 - AISimulation - INFO - Successfully purchased ticket 51f24f69-d51a-4ae6-9c88-b7cae3502fbe
+2024-12-28 11:32:09,984 - AISimulation - INFO - [OK] AISimUser_097 -> regular ticket 43040858-a3e5-4ae5-93d7-03ebd4372805 purchased
+2024-12-28 11:32:09,985 - AISimulation - INFO - Successfully purchased ticket 43040858-a3e5-4ae5-93d7-03ebd4372805
+2024-12-28 11:32:10,090 - AISimulation - INFO - Step 105/200: User AISimUser_038 attempting to purchase 1 regular ticket(s)
+2024-12-28 11:32:10,090 - AISimulation - INFO - [OK] AISimUser_038 -> regular ticket 2abe32e8-a1ba-4917-beeb-5273d0724fd6 purchased
+2024-12-28 11:32:10,091 - AISimulation - INFO - Successfully purchased ticket 2abe32e8-a1ba-4917-beeb-5273d0724fd6
+2024-12-28 11:32:10,195 - AISimulation - INFO - Step 108/200: User AISimUser_033 attempting to purchase 2 regular ticket(s)
+2024-12-28 11:32:10,195 - AISimulation - INFO - [OK] AISimUser_033 -> regular ticket 30ad0bd6-04d5-48e0-934d-d12a1e0b1645 purchased
+2024-12-28 11:32:10,196 - AISimulation - INFO - Successfully purchased ticket 30ad0bd6-04d5-48e0-934d-d12a1e0b1645
+2024-12-28 11:32:10,298 - AISimulation - INFO - [OK] AISimUser_033 -> regular ticket 9b76f328-dd35-406a-b38b-9385f3e9af40 purchased
+2024-12-28 11:32:10,299 - AISimulation - INFO - Successfully purchased ticket 9b76f328-dd35-406a-b38b-9385f3e9af40
+2024-12-28 11:32:10,403 - AISimulation - INFO - Step 109/200: User AISimUser_053 attempting to purchase 3 vip ticket(s)
+2024-12-28 11:32:10,403 - AISimulation - WARNING - [SUSPECT] AISimUser_053 buying vip
+2024-12-28 11:32:10,403 - AISimulation - INFO - [OK] AISimUser_053 -> vip ticket 616165cd-9f33-4c9a-9b6d-3f2f2ba74440 purchased
+2024-12-28 11:32:10,404 - AISimulation - INFO - Successfully purchased ticket 616165cd-9f33-4c9a-9b6d-3f2f2ba74440
+2024-12-28 11:32:10,505 - AISimulation - ERROR - [FRAUD BLOCKED] AISimUser_053 tried vip, blocked by FraudDetector.
+2024-12-28 11:32:10,505 - AISimulation - WARNING - Purchase failed: Transaction blocked: Fraud detection triggered
+2024-12-28 11:32:10,607 - AISimulation - WARNING - [SUSPECT] AISimUser_053 buying vip
+2024-12-28 11:32:10,608 - AISimulation - INFO - [OK] AISimUser_053 -> vip ticket 611b83f6-7b2c-42ed-81f4-8af6275d7ebf purchased
+2024-12-28 11:32:10,608 - AISimulation - INFO - Successfully purchased ticket 611b83f6-7b2c-42ed-81f4-8af6275d7ebf
+2024-12-28 11:32:10,713 - AISimulation - INFO - Step 112/200: User AISimUser_035 attempting to purchase 1 regular ticket(s)
+2024-12-28 11:32:10,713 - AISimulation - WARNING - [SUSPECT] AISimUser_035 buying regular
+2024-12-28 11:32:10,713 - AISimulation - INFO - [OK] AISimUser_035 -> regular ticket 26e73d24-1c8a-4bc9-841f-c68475cd9c35 purchased
+2024-12-28 11:32:10,713 - AISimulation - INFO - Successfully purchased ticket 26e73d24-1c8a-4bc9-841f-c68475cd9c35
+2024-12-28 11:32:10,816 - AISimulation - INFO - Step 113/200: User AISimUser_086 attempting to purchase 1 vip ticket(s)
+2024-12-28 11:32:10,816 - AISimulation - INFO - [OK] AISimUser_086 -> vip ticket 27e2b77e-7265-492a-9cf6-0e4f4c74dd28 purchased
+2024-12-28 11:32:10,816 - AISimulation - INFO - Successfully purchased ticket 27e2b77e-7265-492a-9cf6-0e4f4c74dd28
+2024-12-28 11:32:10,921 - AISimulation - INFO - Step 114/200: User AISimUser_017 attempting to purchase 2 vip ticket(s)
+2024-12-28 11:32:10,921 - AISimulation - WARNING - [SUSPECT] AISimUser_017 buying vip
+2024-12-28 11:32:10,921 - AISimulation - INFO - [OK] AISimUser_017 -> vip ticket 6935fc31-876c-4cf5-a55c-82a7983c6508 purchased
+2024-12-28 11:32:10,921 - AISimulation - INFO - Successfully purchased ticket 6935fc31-876c-4cf5-a55c-82a7983c6508
+2024-12-28 11:32:11,026 - AISimulation - INFO - [OK] AISimUser_017 -> vip ticket 20504bb2-3a0e-4d4b-8bc7-0ad40cef5c24 purchased
+2024-12-28 11:32:11,026 - AISimulation - INFO - Successfully purchased ticket 20504bb2-3a0e-4d4b-8bc7-0ad40cef5c24
+2024-12-28 11:32:11,131 - AISimulation - INFO - Step 115/200: User AISimUser_069 attempting to purchase 1 vip ticket(s)
+2024-12-28 11:32:11,133 - AISimulation - INFO - [OK] AISimUser_069 -> vip ticket 605cc83a-5ecd-42d4-9117-8ece7afa3451 purchased
+2024-12-28 11:32:11,133 - AISimulation - INFO - Successfully purchased ticket 605cc83a-5ecd-42d4-9117-8ece7afa3451
+2024-12-28 11:32:11,238 - AISimulation - INFO - Step 116/200: User AISimUser_016 attempting to purchase 3 regular ticket(s)
+2024-12-28 11:32:11,238 - AISimulation - INFO - [OK] AISimUser_016 -> regular ticket 78e2b8d1-413d-4550-8640-fc0a0583909f purchased
+2024-12-28 11:32:11,238 - AISimulation - INFO - Successfully purchased ticket 78e2b8d1-413d-4550-8640-fc0a0583909f
+2024-12-28 11:32:11,344 - AISimulation - INFO - [OK] AISimUser_016 -> regular ticket 5edbe567-53e4-4985-ba02-18111d07a0f0 purchased
+2024-12-28 11:32:11,344 - AISimulation - INFO - Successfully purchased ticket 5edbe567-53e4-4985-ba02-18111d07a0f0
+2024-12-28 11:32:11,446 - AISimulation - WARNING - [FAILED] AISimUser_016: Max tickets per user reached
+2024-12-28 11:32:11,446 - AISimulation - WARNING - Purchase failed: Max tickets per user reached
+2024-12-28 11:32:11,548 - AISimulation - INFO - Step 117/200: User AISimUser_088 attempting to purchase 1 regular ticket(s)
+2024-12-28 11:32:11,549 - AISimulation - INFO - [OK] AISimUser_088 -> regular ticket a8adc6e3-5c8f-4c91-8fab-af76eccc5c45 purchased
+2024-12-28 11:32:11,549 - AISimulation - INFO - Successfully purchased ticket a8adc6e3-5c8f-4c91-8fab-af76eccc5c45
+2024-12-28 11:32:11,654 - AISimulation - INFO - Step 118/200: User AISimUser_008 attempting to purchase 2 regular ticket(s)
+2024-12-28 11:32:11,655 - AISimulation - WARNING - [SUSPECT] AISimUser_008 buying regular
+2024-12-28 11:32:11,655 - AISimulation - INFO - [OK] AISimUser_008 -> regular ticket 5b206002-2a14-4db0-931a-e39cf159bb98 purchased
+2024-12-28 11:32:11,655 - AISimulation - INFO - Successfully purchased ticket 5b206002-2a14-4db0-931a-e39cf159bb98
+2024-12-28 11:32:11,760 - AISimulation - INFO - [OK] AISimUser_008 -> regular ticket c22dfb69-9583-4ad9-9391-b56b137f5d1c purchased
+2024-12-28 11:32:11,761 - AISimulation - INFO - Successfully purchased ticket c22dfb69-9583-4ad9-9391-b56b137f5d1c
+2024-12-28 11:32:11,865 - AISimulation - INFO - Step 119/200: User AISimUser_018 attempting to purchase 2 regular ticket(s)
+2024-12-28 11:32:11,866 - AISimulation - INFO - [OK] AISimUser_018 -> regular ticket f0c401da-5afe-491c-998c-44584c6de883 purchased
+2024-12-28 11:32:11,867 - AISimulation - INFO - Successfully purchased ticket f0c401da-5afe-491c-998c-44584c6de883
+2024-12-28 11:32:11,972 - AISimulation - INFO - [OK] AISimUser_018 -> regular ticket 10e5d545-957b-4ff9-a746-d2fea32510e6 purchased
+2024-12-28 11:32:11,972 - AISimulation - INFO - Successfully purchased ticket 10e5d545-957b-4ff9-a746-d2fea32510e6
+2024-12-28 11:32:12,073 - AISimulation - INFO - Step 120/200: User AISimUser_025 attempting to purchase 1 regular ticket(s)
+2024-12-28 11:32:12,074 - AISimulation - INFO - [OK] AISimUser_025 -> regular ticket 1e744bbf-b8c7-4bac-87df-c6d2889ac5df purchased
+2024-12-28 11:32:12,075 - AISimulation - INFO - Successfully purchased ticket 1e744bbf-b8c7-4bac-87df-c6d2889ac5df
+2024-12-28 11:32:12,180 - AISimulation - INFO - Progress: 120/200 steps completed
+2024-12-28 11:32:12,180 - AISimulation - INFO - Success rate: 92.24%
+2024-12-28 11:32:12,180 - AISimulation - INFO - Step 122/200: User AISimUser_037 attempting to purchase 1 regular ticket(s)
+2024-12-28 11:32:12,181 - AISimulation - INFO - [OK] AISimUser_037 -> regular ticket 2dd13cd9-ca3c-49b9-8626-78a7cfe767e7 purchased
+2024-12-28 11:32:12,181 - AISimulation - INFO - Successfully purchased ticket 2dd13cd9-ca3c-49b9-8626-78a7cfe767e7
+2024-12-28 11:32:12,282 - AISimulation - INFO - Step 124/200: User AISimUser_027 attempting to purchase 1 regular ticket(s)
+2024-12-28 11:32:12,283 - AISimulation - WARNING - [SUSPECT] AISimUser_027 buying regular
+2024-12-28 11:32:12,283 - AISimulation - INFO - [OK] AISimUser_027 -> regular ticket 511256a2-9870-4dd5-bdf2-42c4ec41caad purchased
+2024-12-28 11:32:12,284 - AISimulation - INFO - Successfully purchased ticket 511256a2-9870-4dd5-bdf2-42c4ec41caad
+2024-12-28 11:32:12,389 - AISimulation - INFO - Step 126/200: User AISimUser_090 attempting to purchase 1 regular ticket(s)
+2024-12-28 11:32:12,394 - AISimulation - INFO - [OK] AISimUser_090 -> regular ticket c4e5ba9c-3128-49db-9173-fa069bcfe870 purchased
+2024-12-28 11:32:12,410 - AISimulation - INFO - Successfully purchased ticket c4e5ba9c-3128-49db-9173-fa069bcfe870
+2024-12-28 11:32:12,515 - AISimulation - INFO - Step 127/200: User AISimUser_099 attempting to purchase 1 regular ticket(s)
+2024-12-28 11:32:12,516 - AISimulation - INFO - [OK] AISimUser_099 -> regular ticket fa11837a-6845-4eb7-88c5-6fe10a57be8e purchased
+2024-12-28 11:32:12,516 - AISimulation - INFO - Successfully purchased ticket fa11837a-6845-4eb7-88c5-6fe10a57be8e
+2024-12-28 11:32:12,616 - AISimulation - INFO - Step 129/200: User AISimUser_024 attempting to purchase 1 regular ticket(s)
+2024-12-28 11:32:12,617 - AISimulation - INFO - [OK] AISimUser_024 -> regular ticket 6e96b17d-89f5-48fa-8e15-5879a8bad8f5 purchased
+2024-12-28 11:32:12,617 - AISimulation - INFO - Successfully purchased ticket 6e96b17d-89f5-48fa-8e15-5879a8bad8f5
+2024-12-28 11:32:12,720 - AISimulation - INFO - Step 130/200: User AISimUser_026 attempting to purchase 2 regular ticket(s)
+2024-12-28 11:32:12,721 - AISimulation - INFO - [OK] AISimUser_026 -> regular ticket 74ed02a9-11e4-459d-a4cc-12f53f73f9f6 purchased
+2024-12-28 11:32:12,721 - AISimulation - INFO - Successfully purchased ticket 74ed02a9-11e4-459d-a4cc-12f53f73f9f6
+2024-12-28 11:32:12,823 - AISimulation - INFO - [OK] AISimUser_026 -> regular ticket 1d9542ae-e870-482b-8470-bb25b0846491 purchased
+2024-12-28 11:32:12,823 - AISimulation - INFO - Successfully purchased ticket 1d9542ae-e870-482b-8470-bb25b0846491
+2024-12-28 11:32:12,927 - AISimulation - INFO - Progress: 130/200 steps completed
+2024-12-28 11:32:12,928 - AISimulation - INFO - Success rate: 92.68%
+2024-12-28 11:32:12,928 - AISimulation - INFO - Step 132/200: User AISimUser_025 attempting to purchase 3 regular ticket(s)
+2024-12-28 11:32:12,928 - AISimulation - INFO - [OK] AISimUser_025 -> regular ticket d4e2dcb2-f2cb-42db-9cac-43b08d22ddc7 purchased
+2024-12-28 11:32:12,929 - AISimulation - INFO - Successfully purchased ticket d4e2dcb2-f2cb-42db-9cac-43b08d22ddc7
+2024-12-28 11:32:13,034 - AISimulation - INFO - [OK] AISimUser_025 -> regular ticket 47ea247c-80fc-406a-8ecc-f223ffe30261 purchased
+2024-12-28 11:32:13,034 - AISimulation - INFO - Successfully purchased ticket 47ea247c-80fc-406a-8ecc-f223ffe30261
+2024-12-28 11:32:13,138 - AISimulation - INFO - [OK] AISimUser_025 -> regular ticket 432af8c1-cb51-4bd9-8480-ab1565dbc985 purchased
+2024-12-28 11:32:13,138 - AISimulation - INFO - Successfully purchased ticket 432af8c1-cb51-4bd9-8480-ab1565dbc985
+2024-12-28 11:32:13,242 - AISimulation - INFO - Step 133/200: User AISimUser_007 attempting to purchase 1 regular ticket(s)
+2024-12-28 11:32:13,243 - AISimulation - INFO - [OK] AISimUser_007 -> regular ticket 5cc11c6a-e3c5-4c29-a3a1-65618ad92487 purchased
+2024-12-28 11:32:13,243 - AISimulation - INFO - Successfully purchased ticket 5cc11c6a-e3c5-4c29-a3a1-65618ad92487
+2024-12-28 11:32:13,348 - AISimulation - INFO - Step 134/200: User AISimUser_063 attempting to purchase 1 regular ticket(s)
+2024-12-28 11:32:13,349 - AISimulation - INFO - [OK] AISimUser_063 -> regular ticket d0ba1ef3-4832-4a2b-8529-b74d5dfdf2c3 purchased
+2024-12-28 11:32:13,350 - AISimulation - INFO - Successfully purchased ticket d0ba1ef3-4832-4a2b-8529-b74d5dfdf2c3
+2024-12-28 11:32:13,455 - AISimulation - INFO - Step 135/200: User AISimUser_071 attempting to purchase 2 regular ticket(s)
+2024-12-28 11:32:13,455 - AISimulation - WARNING - [SUSPECT] AISimUser_071 buying regular
+2024-12-28 11:32:13,456 - AISimulation - INFO - [OK] AISimUser_071 -> regular ticket 7fed1f43-bc66-4051-a7cc-2c02d945ee70 purchased
+2024-12-28 11:32:13,456 - AISimulation - INFO - Successfully purchased ticket 7fed1f43-bc66-4051-a7cc-2c02d945ee70
+2024-12-28 11:32:13,557 - AISimulation - INFO - [OK] AISimUser_071 -> regular ticket f3d0e05d-8e5d-4830-b347-0f519ba68e10 purchased
+2024-12-28 11:32:13,558 - AISimulation - INFO - Successfully purchased ticket f3d0e05d-8e5d-4830-b347-0f519ba68e10
+2024-12-28 11:32:13,663 - AISimulation - INFO - Step 139/200: User AISimUser_064 attempting to purchase 1 regular ticket(s)
+2024-12-28 11:32:13,664 - AISimulation - INFO - [OK] AISimUser_064 -> regular ticket 89849416-9e2e-4469-8a23-ee53ef0c5ee8 purchased
+2024-12-28 11:32:13,664 - AISimulation - INFO - Successfully purchased ticket 89849416-9e2e-4469-8a23-ee53ef0c5ee8
+2024-12-28 11:32:13,764 - AISimulation - INFO - Step 140/200: User AISimUser_028 attempting to purchase 2 regular ticket(s)
+2024-12-28 11:32:13,765 - AISimulation - INFO - [OK] AISimUser_028 -> regular ticket cfa7fa70-06c2-4fce-a775-9235fda30744 purchased
+2024-12-28 11:32:13,765 - AISimulation - INFO - Successfully purchased ticket cfa7fa70-06c2-4fce-a775-9235fda30744
+2024-12-28 11:32:13,869 - AISimulation - INFO - [OK] AISimUser_028 -> regular ticket b417fe25-a5e5-47b7-b176-20bfd9fa08a2 purchased
+2024-12-28 11:32:13,869 - AISimulation - INFO - Successfully purchased ticket b417fe25-a5e5-47b7-b176-20bfd9fa08a2
+2024-12-28 11:32:13,974 - AISimulation - INFO - Progress: 140/200 steps completed
+2024-12-28 11:32:13,975 - AISimulation - INFO - Success rate: 93.23%
+2024-12-28 11:32:13,975 - AISimulation - INFO - Step 141/200: User AISimUser_033 attempting to purchase 2 regular ticket(s)
+2024-12-28 11:32:13,991 - AISimulation - INFO - [OK] AISimUser_033 -> regular ticket b0b5a882-3dca-4aa0-9bc1-5de627f6805b purchased
+2024-12-28 11:32:13,991 - AISimulation - INFO - Successfully purchased ticket b0b5a882-3dca-4aa0-9bc1-5de627f6805b
+2024-12-28 11:32:14,096 - AISimulation - INFO - [OK] AISimUser_033 -> regular ticket 7768ede5-d21a-4e28-abdd-0cc800846f59 purchased
+2024-12-28 11:32:14,097 - AISimulation - INFO - Successfully purchased ticket 7768ede5-d21a-4e28-abdd-0cc800846f59
+2024-12-28 11:32:14,202 - AISimulation - INFO - Step 146/200: User AISimUser_048 attempting to purchase 1 regular ticket(s)
+2024-12-28 11:32:14,203 - AISimulation - INFO - [OK] AISimUser_048 -> regular ticket fe2dbc0f-ac5a-4ced-8a1b-9f38078dfbd2 purchased
+2024-12-28 11:32:14,203 - AISimulation - INFO - Successfully purchased ticket fe2dbc0f-ac5a-4ced-8a1b-9f38078dfbd2
+2024-12-28 11:32:14,304 - AISimulation - INFO - Step 147/200: User AISimUser_015 attempting to purchase 3 regular ticket(s)
+2024-12-28 11:32:14,304 - AISimulation - WARNING - [FAILED] AISimUser_015: Max tickets per user reached
+2024-12-28 11:32:14,305 - AISimulation - WARNING - Purchase failed: Max tickets per user reached
+2024-12-28 11:32:14,409 - AISimulation - WARNING - [FAILED] AISimUser_015: Max tickets per user reached
+2024-12-28 11:32:14,410 - AISimulation - WARNING - Purchase failed: Max tickets per user reached
+2024-12-28 11:32:14,515 - AISimulation - WARNING - [FAILED] AISimUser_015: Max tickets per user reached
+2024-12-28 11:32:14,515 - AISimulation - WARNING - Purchase failed: Max tickets per user reached
+2024-12-28 11:32:14,619 - AISimulation - INFO - Step 148/200: User AISimUser_069 attempting to purchase 1 regular ticket(s)
+2024-12-28 11:32:14,619 - AISimulation - WARNING - [SUSPECT] AISimUser_069 buying regular
+2024-12-28 11:32:14,620 - AISimulation - INFO - [OK] AISimUser_069 -> regular ticket b3069219-ee11-47d2-9327-d12712b79abb purchased
+2024-12-28 11:32:14,620 - AISimulation - INFO - Successfully purchased ticket b3069219-ee11-47d2-9327-d12712b79abb
+2024-12-28 11:32:14,725 - AISimulation - INFO - Step 149/200: User AISimUser_092 attempting to purchase 3 regular ticket(s)
+2024-12-28 11:32:14,726 - AISimulation - INFO - [OK] AISimUser_092 -> regular ticket 06ee527e-d43a-4501-8826-c2790c86589d purchased
+2024-12-28 11:32:14,726 - AISimulation - INFO - Successfully purchased ticket 06ee527e-d43a-4501-8826-c2790c86589d
+2024-12-28 11:32:14,830 - AISimulation - INFO - [OK] AISimUser_092 -> regular ticket 93b40ee3-75c2-4be1-bb1a-a880ec906038 purchased
+2024-12-28 11:32:14,831 - AISimulation - INFO - Successfully purchased ticket 93b40ee3-75c2-4be1-bb1a-a880ec906038
+2024-12-28 11:32:14,934 - AISimulation - INFO - [OK] AISimUser_092 -> regular ticket da7232b9-43c1-477e-8c3c-e0e2d17bd25d purchased
+2024-12-28 11:32:14,934 - AISimulation - INFO - Successfully purchased ticket da7232b9-43c1-477e-8c3c-e0e2d17bd25d
+2024-12-28 11:32:15,038 - AISimulation - INFO - Step 151/200: User AISimUser_015 attempting to purchase 1 regular ticket(s)
+2024-12-28 11:32:15,039 - AISimulation - WARNING - [FAILED] AISimUser_015: Max tickets per user reached
+2024-12-28 11:32:15,039 - AISimulation - WARNING - Purchase failed: Max tickets per user reached
+2024-12-28 11:32:15,142 - AISimulation - INFO - Step 152/200: User AISimUser_080 attempting to purchase 1 regular ticket(s)
+2024-12-28 11:32:15,143 - AISimulation - INFO - [OK] AISimUser_080 -> regular ticket 5afb9549-40e7-4ca0-8378-c2e44d608423 purchased
+2024-12-28 11:32:15,143 - AISimulation - INFO - Successfully purchased ticket 5afb9549-40e7-4ca0-8378-c2e44d608423
+2024-12-28 11:32:15,248 - AISimulation - INFO - Step 154/200: User AISimUser_057 attempting to purchase 1 regular ticket(s)
+2024-12-28 11:32:15,249 - AISimulation - INFO - [OK] AISimUser_057 -> regular ticket 0a50402e-a51c-4030-890a-7d51a92c75ff purchased
+2024-12-28 11:32:15,249 - AISimulation - INFO - Successfully purchased ticket 0a50402e-a51c-4030-890a-7d51a92c75ff
+2024-12-28 11:32:15,352 - AISimulation - INFO - Step 155/200: User AISimUser_077 attempting to purchase 2 regular ticket(s)
+2024-12-28 11:32:15,353 - AISimulation - INFO - [OK] AISimUser_077 -> regular ticket 2110301b-cc83-48a8-b0c5-ede01b81f521 purchased
+2024-12-28 11:32:15,353 - AISimulation - INFO - Successfully purchased ticket 2110301b-cc83-48a8-b0c5-ede01b81f521
+2024-12-28 11:32:15,459 - AISimulation - INFO - [OK] AISimUser_077 -> regular ticket 6d4b5499-c3bf-4c18-a6d3-f951cbfc29d5 purchased
+2024-12-28 11:32:15,459 - AISimulation - INFO - Successfully purchased ticket 6d4b5499-c3bf-4c18-a6d3-f951cbfc29d5
+2024-12-28 11:32:15,563 - AISimulation - INFO - Step 157/200: User AISimUser_031 attempting to purchase 1 regular ticket(s)
+2024-12-28 11:32:15,564 - AISimulation - INFO - [OK] AISimUser_031 -> regular ticket b2281547-c16e-43e2-9fec-ef18fee68adc purchased
+2024-12-28 11:32:15,564 - AISimulation - INFO - Successfully purchased ticket b2281547-c16e-43e2-9fec-ef18fee68adc
+2024-12-28 11:32:15,668 - AISimulation - INFO - Step 158/200: User AISimUser_094 attempting to purchase 1 regular ticket(s)
+2024-12-28 11:32:15,669 - AISimulation - WARNING - [SUSPECT] AISimUser_094 buying regular
+2024-12-28 11:32:15,669 - AISimulation - INFO - [OK] AISimUser_094 -> regular ticket efe94257-948b-4978-82f1-454bb639c5c7 purchased
+2024-12-28 11:32:15,669 - AISimulation - INFO - Successfully purchased ticket efe94257-948b-4978-82f1-454bb639c5c7
+2024-12-28 11:32:15,772 - AISimulation - INFO - Step 160/200: User AISimUser_037 attempting to purchase 1 regular ticket(s)
+2024-12-28 11:32:15,773 - AISimulation - INFO - [OK] AISimUser_037 -> regular ticket fbfdaa2d-2698-4cc0-81bb-caa703e755ea purchased
+2024-12-28 11:32:15,773 - AISimulation - INFO - Successfully purchased ticket fbfdaa2d-2698-4cc0-81bb-caa703e755ea
+2024-12-28 11:32:15,875 - AISimulation - INFO - Progress: 160/200 steps completed
+2024-12-28 11:32:15,875 - AISimulation - INFO - Success rate: 91.39%
+2024-12-28 11:32:15,876 - AISimulation - INFO - Step 162/200: User AISimUser_083 attempting to purchase 1 regular ticket(s)
+2024-12-28 11:32:15,876 - AISimulation - INFO - [OK] AISimUser_083 -> regular ticket e9a5d08d-f568-4614-a6e7-a607bef92d2c purchased
+2024-12-28 11:32:15,876 - AISimulation - INFO - Successfully purchased ticket e9a5d08d-f568-4614-a6e7-a607bef92d2c
+2024-12-28 11:32:15,980 - AISimulation - INFO - Step 163/200: User AISimUser_090 attempting to purchase 1 regular ticket(s)
+2024-12-28 11:32:15,981 - AISimulation - INFO - [OK] AISimUser_090 -> regular ticket ba332d22-3bae-4631-b935-fc6763e14fee purchased
+2024-12-28 11:32:15,981 - AISimulation - INFO - Successfully purchased ticket ba332d22-3bae-4631-b935-fc6763e14fee
+2024-12-28 11:32:16,085 - AISimulation - INFO - Step 164/200: User AISimUser_080 attempting to purchase 1 regular ticket(s)
+2024-12-28 11:32:16,086 - AISimulation - INFO - [OK] AISimUser_080 -> regular ticket f25fac06-b43d-4b47-9bc2-d5ff497f0429 purchased
+2024-12-28 11:32:16,086 - AISimulation - INFO - Successfully purchased ticket f25fac06-b43d-4b47-9bc2-d5ff497f0429
+2024-12-28 11:32:16,191 - AISimulation - INFO - Step 165/200: User AISimUser_095 attempting to purchase 2 regular ticket(s)
+2024-12-28 11:32:16,192 - AISimulation - INFO - [OK] AISimUser_095 -> regular ticket c44fff25-bae9-4b2f-bf58-98cade57a2d2 purchased
+2024-12-28 11:32:16,192 - AISimulation - INFO - Successfully purchased ticket c44fff25-bae9-4b2f-bf58-98cade57a2d2
+2024-12-28 11:32:16,294 - AISimulation - WARNING - [FAILED] AISimUser_095: Max tickets per user reached
+2024-12-28 11:32:16,294 - AISimulation - WARNING - Purchase failed: Max tickets per user reached
+2024-12-28 11:32:16,399 - AISimulation - INFO - Step 166/200: User AISimUser_077 attempting to purchase 1 regular ticket(s)
+2024-12-28 11:32:16,399 - AISimulation - INFO - [OK] AISimUser_077 -> regular ticket 9da503fc-8697-46ec-a279-83682650e10c purchased
+2024-12-28 11:32:16,400 - AISimulation - INFO - Successfully purchased ticket 9da503fc-8697-46ec-a279-83682650e10c
+2024-12-28 11:32:16,505 - AISimulation - INFO - Step 167/200: User AISimUser_072 attempting to purchase 1 regular ticket(s)
+2024-12-28 11:32:16,505 - AISimulation - ERROR - [FRAUD BLOCKED] AISimUser_072 tried regular, blocked by FraudDetector.
+2024-12-28 11:32:16,505 - AISimulation - WARNING - Purchase failed: Transaction blocked: Fraud detection triggered
+2024-12-28 11:32:16,610 - AISimulation - INFO - Step 171/200: User AISimUser_047 attempting to purchase 1 regular ticket(s)
+2024-12-28 11:32:16,611 - AISimulation - INFO - [OK] AISimUser_047 -> regular ticket 37d7c918-0125-4a11-8be8-006ed51f05a1 purchased
+2024-12-28 11:32:16,611 - AISimulation - INFO - Successfully purchased ticket 37d7c918-0125-4a11-8be8-006ed51f05a1
+2024-12-28 11:32:16,713 - AISimulation - INFO - Step 175/200: User AISimUser_080 attempting to purchase 1 regular ticket(s)
+2024-12-28 11:32:16,714 - AISimulation - INFO - [OK] AISimUser_080 -> regular ticket b25b25ca-dacf-46fd-a6fe-dae52e1db804 purchased
+2024-12-28 11:32:16,714 - AISimulation - INFO - Successfully purchased ticket b25b25ca-dacf-46fd-a6fe-dae52e1db804
+2024-12-28 11:32:16,816 - AISimulation - INFO - Step 176/200: User AISimUser_016 attempting to purchase 2 regular ticket(s)
+2024-12-28 11:32:16,816 - AISimulation - WARNING - [FAILED] AISimUser_016: Max tickets per user reached
+2024-12-28 11:32:16,817 - AISimulation - WARNING - Purchase failed: Max tickets per user reached
+2024-12-28 11:32:16,919 - AISimulation - ERROR - [FRAUD BLOCKED] AISimUser_016 tried regular, blocked by FraudDetector.
+2024-12-28 11:32:16,920 - AISimulation - WARNING - Purchase failed: Transaction blocked: Fraud detection triggered
+2024-12-28 11:32:17,024 - AISimulation - INFO - Step 177/200: User AISimUser_073 attempting to purchase 1 regular ticket(s)
+2024-12-28 11:32:17,024 - AISimulation - WARNING - [SUSPECT] AISimUser_073 buying regular
+2024-12-28 11:32:17,024 - AISimulation - INFO - [OK] AISimUser_073 -> regular ticket d9ac1e75-dad9-421f-b4ac-011517bc9d1b purchased
+2024-12-28 11:32:17,025 - AISimulation - INFO - Successfully purchased ticket d9ac1e75-dad9-421f-b4ac-011517bc9d1b
+2024-12-28 11:32:17,130 - AISimulation - INFO - Step 178/200: User AISimUser_025 attempting to purchase 3 regular ticket(s)
+2024-12-28 11:32:17,130 - AISimulation - INFO - [OK] AISimUser_025 -> regular ticket 137ba679-b73a-4aa7-804c-0332b0179f8c purchased
+2024-12-28 11:32:17,131 - AISimulation - INFO - Successfully purchased ticket 137ba679-b73a-4aa7-804c-0332b0179f8c
+2024-12-28 11:32:17,235 - AISimulation - WARNING - [SUSPECT] AISimUser_025 buying regular
+2024-12-28 11:32:17,236 - AISimulation - WARNING - [FAILED] AISimUser_025: Max tickets per user reached
+2024-12-28 11:32:17,236 - AISimulation - WARNING - Purchase failed: Max tickets per user reached
+2024-12-28 11:32:17,341 - AISimulation - WARNING - [FAILED] AISimUser_025: Max tickets per user reached
+2024-12-28 11:32:17,341 - AISimulation - WARNING - Purchase failed: Max tickets per user reached
+2024-12-28 11:32:17,443 - AISimulation - INFO - Step 179/200: User AISimUser_073 attempting to purchase 1 regular ticket(s)
+2024-12-28 11:32:17,443 - AISimulation - INFO - [OK] AISimUser_073 -> regular ticket 5859d3da-5bac-4514-a2e4-3510d3699519 purchased
+2024-12-28 11:32:17,444 - AISimulation - INFO - Successfully purchased ticket 5859d3da-5bac-4514-a2e4-3510d3699519
+2024-12-28 11:32:17,549 - AISimulation - INFO - Step 180/200: User AISimUser_001 attempting to purchase 1 regular ticket(s)
+2024-12-28 11:32:17,549 - AISimulation - INFO - [OK] AISimUser_001 -> regular ticket 9f0a43b5-a456-486c-be9f-7ded7100e555 purchased
+2024-12-28 11:32:17,550 - AISimulation - INFO - Successfully purchased ticket 9f0a43b5-a456-486c-be9f-7ded7100e555
+2024-12-28 11:32:17,654 - AISimulation - INFO - Progress: 180/200 steps completed
+2024-12-28 11:32:17,654 - AISimulation - INFO - Success rate: 88.69%
+2024-12-28 11:32:17,654 - AISimulation - INFO - Step 182/200: User AISimUser_082 attempting to purchase 1 regular ticket(s)
+2024-12-28 11:32:17,655 - AISimulation - ERROR - [FRAUD BLOCKED] AISimUser_082 tried regular, blocked by FraudDetector.
+2024-12-28 11:32:17,655 - AISimulation - WARNING - Purchase failed: Transaction blocked: Fraud detection triggered
+2024-12-28 11:32:17,760 - AISimulation - INFO - Step 183/200: User AISimUser_016 attempting to purchase 3 regular ticket(s)
+2024-12-28 11:32:17,761 - AISimulation - WARNING - [SUSPECT] AISimUser_016 buying regular
+2024-12-28 11:32:17,761 - AISimulation - WARNING - [FAILED] AISimUser_016: Max tickets per user reached
+2024-12-28 11:32:17,761 - AISimulation - WARNING - Purchase failed: Max tickets per user reached
+2024-12-28 11:32:17,863 - AISimulation - WARNING - [FAILED] AISimUser_016: Max tickets per user reached
+2024-12-28 11:32:17,863 - AISimulation - WARNING - Purchase failed: Max tickets per user reached
+2024-12-28 11:32:17,964 - AISimulation - WARNING - [FAILED] AISimUser_016: Max tickets per user reached
+2024-12-28 11:32:17,965 - AISimulation - WARNING - Purchase failed: Max tickets per user reached
+2024-12-28 11:32:18,070 - AISimulation - INFO - Step 184/200: User AISimUser_002 attempting to purchase 1 regular ticket(s)
+2024-12-28 11:32:18,071 - AISimulation - INFO - [OK] AISimUser_002 -> regular ticket bdd029de-ced8-41d3-b83f-de7f541b6486 purchased
+2024-12-28 11:32:18,071 - AISimulation - INFO - Successfully purchased ticket bdd029de-ced8-41d3-b83f-de7f541b6486
+2024-12-28 11:32:18,176 - AISimulation - INFO - Step 187/200: User AISimUser_033 attempting to purchase 1 regular ticket(s)
+2024-12-28 11:32:18,176 - AISimulation - INFO - [OK] AISimUser_033 -> regular ticket c1a6c3a2-0227-4809-adaf-5060431a7580 purchased
+2024-12-28 11:32:18,177 - AISimulation - INFO - Successfully purchased ticket c1a6c3a2-0227-4809-adaf-5060431a7580
+2024-12-28 11:32:18,281 - AISimulation - INFO - Step 188/200: User AISimUser_012 attempting to purchase 1 regular ticket(s)
+2024-12-28 11:32:18,282 - AISimulation - WARNING - [SUSPECT] AISimUser_012 buying regular
+2024-12-28 11:32:18,282 - AISimulation - INFO - [OK] AISimUser_012 -> regular ticket 25b7f69e-6f22-45f5-88d5-7f60d0817d63 purchased
+2024-12-28 11:32:18,282 - AISimulation - INFO - Successfully purchased ticket 25b7f69e-6f22-45f5-88d5-7f60d0817d63
+2024-12-28 11:32:18,383 - AISimulation - INFO - Step 190/200: User AISimUser_070 attempting to purchase 2 regular ticket(s)
+2024-12-28 11:32:18,383 - AISimulation - INFO - [OK] AISimUser_070 -> regular ticket 7e09b811-c020-4dba-8e62-9e75a8392da8 purchased
+2024-12-28 11:32:18,383 - AISimulation - INFO - Successfully purchased ticket 7e09b811-c020-4dba-8e62-9e75a8392da8
+2024-12-28 11:32:18,486 - AISimulation - INFO - [OK] AISimUser_070 -> regular ticket c1e62293-93c7-4894-b96a-35d62488423c purchased
+2024-12-28 11:32:18,487 - AISimulation - INFO - Successfully purchased ticket c1e62293-93c7-4894-b96a-35d62488423c
+2024-12-28 11:32:18,592 - AISimulation - INFO - Progress: 190/200 steps completed
+2024-12-28 11:32:18,593 - AISimulation - INFO - Success rate: 87.01%
+2024-12-28 11:32:18,593 - AISimulation - INFO - Step 191/200: User AISimUser_092 attempting to purchase 1 regular ticket(s)
+2024-12-28 11:32:18,593 - AISimulation - INFO - [OK] AISimUser_092 -> regular ticket 13bdc204-1a6f-48ce-87f4-1cd3d94074e1 purchased
+2024-12-28 11:32:18,594 - AISimulation - INFO - Successfully purchased ticket 13bdc204-1a6f-48ce-87f4-1cd3d94074e1
+2024-12-28 11:32:18,697 - AISimulation - INFO - Step 192/200: User AISimUser_081 attempting to purchase 3 regular ticket(s)
+2024-12-28 11:32:18,698 - AISimulation - WARNING - [FAILED] AISimUser_081: Max tickets per user reached
+2024-12-28 11:32:18,698 - AISimulation - WARNING - Purchase failed: Max tickets per user reached
+2024-12-28 11:32:18,803 - AISimulation - WARNING - [SUSPECT] AISimUser_081 buying regular
+2024-12-28 11:32:18,804 - AISimulation - WARNING - [FAILED] AISimUser_081: Max tickets per user reached
+2024-12-28 11:32:18,804 - AISimulation - WARNING - Purchase failed: Max tickets per user reached
+2024-12-28 11:32:18,909 - AISimulation - WARNING - [FAILED] AISimUser_081: Max tickets per user reached
+2024-12-28 11:32:18,910 - AISimulation - WARNING - Purchase failed: Max tickets per user reached
+2024-12-28 11:32:19,015 - AISimulation - INFO - Step 194/200: User AISimUser_035 attempting to purchase 1 regular ticket(s)
+2024-12-28 11:32:19,016 - AISimulation - INFO - [OK] AISimUser_035 -> regular ticket 9e9001ad-c2d4-455d-9af9-2712ed7c6c58 purchased
+2024-12-28 11:32:19,016 - AISimulation - INFO - Successfully purchased ticket 9e9001ad-c2d4-455d-9af9-2712ed7c6c58
+2024-12-28 11:32:19,121 - AISimulation - INFO - Step 195/200: User AISimUser_048 attempting to purchase 1 regular ticket(s)
+2024-12-28 11:32:19,122 - AISimulation - INFO - [OK] AISimUser_048 -> regular ticket e602f6e5-b40b-45d2-b721-04a34bdfc28f purchased
+2024-12-28 11:32:19,122 - AISimulation - INFO - Successfully purchased ticket e602f6e5-b40b-45d2-b721-04a34bdfc28f
+2024-12-28 11:32:19,227 - AISimulation - INFO - Step 196/200: User AISimUser_091 attempting to purchase 1 regular ticket(s)
+2024-12-28 11:32:19,227 - AISimulation - INFO - [OK] AISimUser_091 -> regular ticket 949fdd36-e92d-491f-ab3a-7cb9e2dc5bed purchased
+2024-12-28 11:32:19,227 - AISimulation - INFO - Successfully purchased ticket 949fdd36-e92d-491f-ab3a-7cb9e2dc5bed
+2024-12-28 11:32:19,331 - AISimulation - INFO - Simulation complete

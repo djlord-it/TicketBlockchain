@@ -1,11 +1,8 @@
-# main.py
-
 import sys
 from PyQt6.QtWidgets import (
     QApplication, QMainWindow, QWidget, QHBoxLayout, QVBoxLayout,
     QPushButton, QLabel, QStackedWidget
 )
-from PyQt6.QtCore import Qt
 
 from blockchain_ticketing import TicketingBlockchain
 from pages.add_concert import AddConcertPage
@@ -14,6 +11,7 @@ from pages.transfer import TransferPage
 from pages.display_tickets import DisplayTicketsPage
 from pages.request_refund import RequestRefundPage
 from pages.stats import StatsPage
+from pages.aiChatbot import ChatWindow
 
 
 class ConcertTicketingApp(QMainWindow):
@@ -22,10 +20,10 @@ class ConcertTicketingApp(QMainWindow):
         self.setWindowTitle("Concert Ticketing System")
         self.resize(1200, 800)
 
-        # 1) Instantiate the blockchain
+        # Load the TicketingBlockchain instance
         self.blockchain = TicketingBlockchain(difficulty=2)
 
-        # 2) Define the button actions
+        # Define the sidebar button actions; 7 pages
         self.buttons_actions = [
             lambda: self.stack.setCurrentIndex(0),  # Add a Concert
             lambda: self.stack.setCurrentIndex(1),  # Mint Tickets
@@ -33,23 +31,24 @@ class ConcertTicketingApp(QMainWindow):
             lambda: self.stack.setCurrentIndex(3),  # Display Event Tickets
             lambda: self.stack.setCurrentIndex(4),  # Request Refund
             lambda: self.stack.setCurrentIndex(5),  # Display Event Statistics
+            lambda: self.stack.setCurrentIndex(6),  # AI Chatbot
         ]
 
-        # Main layout
+        # 3) Main layout
         main_widget = QWidget()
         self.setCentralWidget(main_widget)
         main_layout = QHBoxLayout(main_widget)
         main_layout.setContentsMargins(20, 20, 20, 20)
         main_layout.setSpacing(20)
 
-        # Create sidebar
+        # 4) Sidebar
         self.sidebar = self.createSidebar()
         main_layout.addWidget(self.sidebar)
 
-        # Create stack
+        # 5) QStackedWidget
         self.stack = QStackedWidget()
 
-        # Create the pages (pass the blockchain)
+        # 6) Create the pages
         self.add_concert_page = AddConcertPage(
             self.blockchain,
             update_event_combos_callback=self.updateAllPages
@@ -60,50 +59,51 @@ class ConcertTicketingApp(QMainWindow):
         self.refund_page = RequestRefundPage(self.blockchain)
         self.stats_page = StatsPage(self.blockchain)
 
-        # Add pages to the stack
-        self.stack.addWidget(self.add_concert_page)   # index 0
-        self.stack.addWidget(self.mint_page)          # index 1
-        self.stack.addWidget(self.transfer_page)      # index 2
-        self.stack.addWidget(self.display_tix_page)   # index 3
-        self.stack.addWidget(self.refund_page)        # index 4
-        self.stack.addWidget(self.stats_page)         # index 5
+        # Create an instance of the AI Chatbot page
+        self.ai_chatbot_page = ChatWindow(self.blockchain)
+
+        # 7) Add all pages to the stack
+        self.stack.addWidget(self.add_concert_page)  # index 0
+        self.stack.addWidget(self.mint_page)  # index 1
+        self.stack.addWidget(self.transfer_page)  # index 2
+        self.stack.addWidget(self.display_tix_page)  # index 3
+        self.stack.addWidget(self.refund_page)  # index 4
+        self.stack.addWidget(self.stats_page)  # index 5
+        self.stack.addWidget(self.ai_chatbot_page)  # index 6
 
         main_layout.addWidget(self.stack)
 
-        # StyleSheet fix so text is visible in input fields
+        # 8) Apply style
         self.setStyleSheet('''
             QMainWindow {
                 background-color: #f5f5f7;
             }
             QMessageBox {
-            background-color: #ffffff; /* Light background */
+                background-color: #ffffff;
             }
-            
             QMessageBox QLabel {
-            color: #000000;           /* Dark text for visibility */
-            font-size: 15px;
+                color: #000000;
+                font-size: 15px;
             }
-            
             QMessageBox QPushButton {
                 background-color: #0071e3;
-                 color: #ffffff;
-                 border-radius: 6px;
-                 padding: 8px 15px;
-                 margin: 5px;
-                 font-size: 14px;
-             }
-            QMessageBox QPushButton:hover {
-                 background-color: #005bb5;
+                color: #ffffff;
+                border-radius: 6px;
+                padding: 8px 15px;
+                margin: 5px;
+                font-size: 14px;
             }
-            
+            QMessageBox QPushButton:hover {
+                background-color: #005bb5;
+            }
             QWidget#sidebar {
                 background-color: #ffffff;
                 border-radius: 12px;
                 border: 1px solid #d1d1d6;
             }
             QLabel#sidebarTitle {
-                font-size: 22px; 
-                font-weight: 600; 
+                font-size: 22px;
+                font-weight: 600;
                 color: #333333;
                 margin-bottom: 20px;
             }
@@ -130,7 +130,7 @@ class ConcertTicketingApp(QMainWindow):
                 border-radius: 6px;
                 background: white;
                 font-size: 15px;
-                color: #333333; /* Make sure text is visible */
+                color: #333333;
             }
             QPushButton {
                 background-color: #0071e3;
@@ -145,7 +145,7 @@ class ConcertTicketingApp(QMainWindow):
             }
         ''')
 
-        # Populate combos
+        # 9) Update combos if needed
         self.updateAllPages()
 
     def createSidebar(self):
@@ -157,13 +157,15 @@ class ConcertTicketingApp(QMainWindow):
         title = QLabel("Concert Ticketing", objectName="sidebarTitle")
         layout.addWidget(title)
 
+        # 7 button labels
         button_texts = [
             "1. Add a Concert",
             "2. Mint Tickets",
             "3. Transfer Tickets",
             "4. Display Event Tickets",
             "5. Request Refund",
-            "6. Display Event Statistics"
+            "6. Display Event Statistics",
+            "7. AI Chatbot"
         ]
 
         for i, text in enumerate(button_texts):
@@ -175,7 +177,6 @@ class ConcertTicketingApp(QMainWindow):
         return sidebar
 
     def updateAllPages(self):
-        """Refresh event combo boxes on all pages that have them."""
         self.mint_page.updateEventList()
         self.display_tix_page.updateEventList()
         self.stats_page.updateEventList()

@@ -1,7 +1,4 @@
-# pages/stats.py
-
 from PyQt6.QtWidgets import QWidget, QVBoxLayout, QLabel, QComboBox, QPushButton, QTextEdit, QMessageBox
-from PyQt6.QtCore import Qt
 from blockchain_ticketing import TicketingBlockchain
 
 

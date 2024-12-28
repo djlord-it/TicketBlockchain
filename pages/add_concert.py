@@ -1,183 +1,212 @@
-from datetime import datetime
 from PyQt6.QtWidgets import (
-    QWidget, QVBoxLayout, QLabel, QLineEdit, QPushButton, QMessageBox
+    QWidget, QVBoxLayout, QLabel, QLineEdit, QPushButton, QMessageBox,
+    QGroupBox, QGridLayout, QDateTimeEdit
 )
-from PyQt6.QtCore import Qt
-from blockchain_ticketing import TicketType, TicketingBlockchain
+from PyQt6.QtCore import Qt, QDateTime
+from datetime import datetime, timedelta
+from blockchain_ticketing import TicketingBlockchain, TicketType
 
 
 class AddConcertPage(QWidget):
-    def __init__(self, blockchain: TicketingBlockchain, update_event_combos_callback):
+    def __init__(self, blockchain: TicketingBlockchain, update_event_combos_callback=None):
         super().__init__()
         self.blockchain = blockchain
         self.update_event_combos_callback = update_event_combos_callback
+        self.setup_ui()
 
+    def setup_ui(self):
         layout = QVBoxLayout(self)
         layout.setSpacing(15)
 
-        title = QLabel("Add a Concert (Event)")
-        title.setStyleSheet("font-size: 22px; font-weight: bold;")
-        layout.addWidget(title)
+        title_label = QLabel("Create a New Concert (Event)")
+        title_label.setStyleSheet("font-size: 20px; font-weight: bold;")
+        layout.addWidget(title_label)
 
-        # Concert Name
-        layout.addWidget(QLabel("Concert Name:"))
+        #Event Information Group
+        event_box = QGroupBox("Event Information")
+        event_layout = QGridLayout()
+
+        event_layout.addWidget(QLabel("Event Name:"), 0, 0)
         self.concert_name_input = QLineEdit()
-        self.concert_name_input.setStyleSheet("color: #333333; padding: 8px;")
-        layout.addWidget(self.concert_name_input)
+        event_layout.addWidget(self.concert_name_input, 0, 1)
 
-        # Venue
-        layout.addWidget(QLabel("Venue:"))
+        event_layout.addWidget(QLabel("Venue:"), 1, 0)
         self.venue_input = QLineEdit()
-        self.venue_input.setStyleSheet("color: #333333; padding: 8px;")
-        layout.addWidget(self.venue_input)
+        event_layout.addWidget(self.venue_input, 1, 1)
 
-        # Date
-        layout.addWidget(QLabel("Date (YYYY-MM-DD HH:MM):"))
-        self.date_input = QLineEdit()
-        self.date_input.setPlaceholderText("e.g. 2024-06-15 20:30")
-        self.date_input.setStyleSheet("color: #333333; padding: 8px;")
-        layout.addWidget(self.date_input)
+        event_layout.addWidget(QLabel("Event Date & Time:"), 2, 0)
+        self.date_input = QDateTimeEdit()
+        self.date_input.setCalendarPopup(True)
+        self.date_input.setDateTime(QDateTime.currentDateTime().addDays(7))
+        event_layout.addWidget(self.date_input, 2, 1)
 
-        # Organizer Wallet Address
-        layout.addWidget(QLabel("Organizer Wallet Address:"))
+        event_layout.addWidget(QLabel("Organizer Address:"), 3, 0)
         self.organizer_input = QLineEdit()
-        self.organizer_input.setStyleSheet("color: #333333; padding: 8px;")
-        layout.addWidget(self.organizer_input)
+        event_layout.addWidget(self.organizer_input, 3, 1)
 
-        # Max Tickets per User
-        layout.addWidget(QLabel("Max Tickets per User:"))
-        self.max_tickets_input = QLineEdit()
-        self.max_tickets_input.setText("5")
-        self.max_tickets_input.setStyleSheet("color: #333333; padding: 8px;")
-        layout.addWidget(self.max_tickets_input)
+        event_layout.addWidget(QLabel("Category:"), 4, 0)
+        self.category_input = QLineEdit("Music")
+        event_layout.addWidget(self.category_input, 4, 1)
 
-        # Refundable Until
-        layout.addWidget(QLabel("Refundable Until (YYYY-MM-DD HH:MM):"))
-        self.refundable_until_input = QLineEdit()
-        self.refundable_until_input.setPlaceholderText("e.g. 2024-06-10 23:59")
-        self.refundable_until_input.setStyleSheet("color: #333333; padding: 8px;")
-        layout.addWidget(self.refundable_until_input)
+        event_layout.addWidget(QLabel("Description:"), 5, 0)
+        self.description_input = QLineEdit("A fantastic live event")
+        event_layout.addWidget(self.description_input, 5, 1)
 
-        # Number of Tickets (Regular)
-        layout.addWidget(QLabel("Number of Tickets (Regular):"))
-        self.tix_count_input = QLineEdit()
-        self.tix_count_input.setText("100")
-        self.tix_count_input.setStyleSheet("color: #333333; padding: 8px;")
-        layout.addWidget(self.tix_count_input)
+        event_box.setLayout(event_layout)
+        layout.addWidget(event_box)
 
-        # Ticket Price (Regular)
-        layout.addWidget(QLabel("Ticket Price (Regular):"))
-        self.tix_price_input = QLineEdit()
-        self.tix_price_input.setText("50.0")
-        self.tix_price_input.setStyleSheet("color: #333333; padding: 8px;")
-        layout.addWidget(self.tix_price_input)
+        #Ticket Types & Prices Group
+        ticket_box = QGroupBox("Ticket Types & Prices")
+        ticket_layout = QGridLayout()
 
-        # Add Concert button
-        add_btn = QPushButton("Add Concert")
-        add_btn.setStyleSheet("""
-            QPushButton {
-                background-color: #0071e3;
-                color: white;
-                border: none;
-                border-radius: 8px;
-                padding: 12px;
-                font-size: 16px;
-            }
-            QPushButton:hover {
-                background-color: #005bb5;
-            }
-        """)
-        add_btn.clicked.connect(self.addConcert)
-        layout.addWidget(add_btn)
+        self.ticket_count_inputs = {}
+        self.ticket_price_inputs = {}
+
+        row_idx = 0
+        for ttype in TicketType:
+            label_type = QLabel(f"{ttype.value.capitalize()} Tickets:")
+
+            #QLineEdit for count
+            count_input = QLineEdit()
+            count_input.setPlaceholderText("Count (e.g. 10)")
+            count_input.setText("10" if ttype == TicketType.REGULAR else "5")
+
+            #QLineEdit for price
+            price_input = QLineEdit()
+            price_input.setPlaceholderText("Price (e.g. 50.0)")
+            if ttype == TicketType.REGULAR:
+                price_input.setText("50.0")
+            else:
+                price_input.setText("80.0")
+
+            ticket_layout.addWidget(label_type, row_idx, 0)
+            ticket_layout.addWidget(QLabel("Count:"), row_idx, 1)
+            ticket_layout.addWidget(count_input, row_idx, 2)
+            ticket_layout.addWidget(QLabel("Price:"), row_idx, 3)
+            ticket_layout.addWidget(price_input, row_idx, 4)
+
+            self.ticket_count_inputs[ttype] = count_input
+            self.ticket_price_inputs[ttype] = price_input
+            row_idx += 1
+
+        ticket_box.setLayout(ticket_layout)
+        layout.addWidget(ticket_box)
+
+        #Additional Settings Group
+        settings_box = QGroupBox("Additional Settings")
+        settings_layout = QGridLayout()
+
+        settings_layout.addWidget(QLabel("Max Tickets per User:"), 0, 0)
+        self.max_tickets_input = QLineEdit("4")
+        settings_layout.addWidget(self.max_tickets_input, 0, 1)
+
+        settings_layout.addWidget(QLabel("Refundable Until:"), 1, 0)
+        self.refundable_until_input = QDateTimeEdit()
+        self.refundable_until_input.setCalendarPopup(True)
+        self.refundable_until_input.setDateTime(QDateTime.currentDateTime().addDays(6))
+        settings_layout.addWidget(self.refundable_until_input, 1, 1)
+
+        settings_layout.addWidget(QLabel("Transfer Cooldown (minutes):"), 2, 0)
+        self.cooldown_input = QLineEdit("30")
+        settings_layout.addWidget(self.cooldown_input, 2, 1)
+
+        self.create_event_btn = QPushButton("Create Event")
+        self.create_event_btn.clicked.connect(self.createEvent)
+        settings_layout.addWidget(self.create_event_btn, 3, 0, 1, 2)
+
+        settings_box.setLayout(settings_layout)
+        layout.addWidget(settings_box)
 
         layout.addStretch()
 
-    def addConcert(self):
+    def createEvent(self):
         name = self.concert_name_input.text().strip()
         venue = self.venue_input.text().strip()
-        date_str = self.date_input.text().strip()
+        dt = self.date_input.dateTime().toPyDateTime()
         organizer = self.organizer_input.text().strip()
-        refundable_str = self.refundable_until_input.text().strip()
+        category = self.category_input.text().strip()
+        description = self.description_input.text().strip()
+        refundable_dt = self.refundable_until_input.dateTime().toPyDateTime()
 
-        # Specific validation messages
-        if not name:
-            QMessageBox.warning(self, "Error", "Please enter a concert name.")
-            return
-        if not venue:
-            QMessageBox.warning(self, "Error", "Please enter a venue.")
-            return
-        if not date_str:
-            QMessageBox.warning(self, "Error", "Please enter an event date.")
-            return
-        if not " " in date_str:
-            QMessageBox.warning(self, "Error", "Event date must include time (YYYY-MM-DD HH:MM)")
-            return
-        if not organizer:
-            QMessageBox.warning(self, "Error", "Please enter an organizer wallet address.")
-            return
-        if not refundable_str:
-            QMessageBox.warning(self, "Error", "Please enter a refundable until date.")
-            return
-        if not " " in refundable_str:
-            QMessageBox.warning(self, "Error", "Refundable date must include time (YYYY-MM-DD HH:MM)")
-            return
-
+        # parse max_tickets_per_user from QLineEdit
         try:
-            event_date = datetime.strptime(date_str, "%Y-%m-%d %H:%M")
-            refundable_until = datetime.strptime(refundable_str, "%Y-%m-%d %H:%M")
-
-            if event_date < datetime.now():
-                QMessageBox.warning(self, "Error", "Event date must be in the future.")
-                return
-
-            if refundable_until >= event_date:
-                QMessageBox.warning(self, "Error", "Refundable until date must be before event date.")
-                return
+            max_tickets_per_user = int(self.max_tickets_input.text().strip())
         except ValueError:
-            QMessageBox.warning(self, "Error", "Invalid date format. Use YYYY-MM-DD HH:MM")
+            QMessageBox.warning(self, "Error", "Max Tickets per User must be an integer.")
             return
 
+        # parse cooldown minutes
         try:
-            max_tickets = int(self.max_tickets_input.text())
-            count_regular = int(self.tix_count_input.text())
-            price_regular = float(self.tix_price_input.text())
+            cooldown_minutes = int(self.cooldown_input.text().strip())
+        except ValueError:
+            QMessageBox.warning(self, "Error", "Transfer Cooldown must be an integer (minutes).")
+            return
 
-            if max_tickets <= 0:
-                QMessageBox.warning(self, "Error", "Max tickets per user must be greater than 0.")
-                return
-            if count_regular <= 0:
-                QMessageBox.warning(self, "Error", "Number of tickets must be greater than 0.")
-                return
-            if price_regular <= 0:
-                QMessageBox.warning(self, "Error", "Ticket price must be greater than 0.")
+        if not name or not venue or not organizer:
+            QMessageBox.warning(self, "Error", "Please fill in all required fields.")
+            return
+        if dt <= datetime.now():
+            QMessageBox.warning(self, "Error", "Event date must be in the future.")
+            return
+        if refundable_dt <= datetime.now():
+            QMessageBox.warning(self, "Error", "Refundable-until date must be in the future.")
+            return
+
+        # parse ticket_types & prices
+        ticket_types = {}
+        prices = {}
+        for ttype in TicketType:
+            try:
+                cnt_val = int(self.ticket_count_inputs[ttype].text().strip())
+                price_val = float(self.ticket_price_inputs[ttype].text().strip())
+            except ValueError:
+                QMessageBox.warning(self, "Error", f"Invalid count/price for {ttype.value.capitalize()} Tickets.")
                 return
 
+            ticket_types[ttype] = cnt_val
+            prices[ttype] = price_val
+
+        try:
             event_obj = self.blockchain.create_event(
                 name=name,
                 venue=venue,
-                date=event_date,
-                ticket_types={TicketType.REGULAR: count_regular},
-                prices={TicketType.REGULAR: price_regular},
+                date=dt,
+                ticket_types=ticket_types,
+                prices=prices,
                 organizer_address=organizer,
-                description="Concert event",
-                category="Concert",
-                max_tickets_per_user=max_tickets,
-                refundable_until=refundable_until
+                description=description,
+                category=category,
+                max_tickets_per_user=max_tickets_per_user,
+                refundable_until=refundable_dt
             )
-            QMessageBox.information(self, "Success", f"Concert '{event_obj.name}' created successfully!")
-            self.update_event_combos_callback()
-            self._clear_form()
-        except ValueError:
-            QMessageBox.warning(self, "Error", "Please enter valid numbers for tickets and price.")
-        except Exception as e:
+
+            # Overwrite the event's cooldown if we want user-defined
+            event_obj.ticket_transfer_cooldown = timedelta(minutes=cooldown_minutes)
+
+            QMessageBox.information(self, "Success", f"Event '{event_obj.name}' created successfully!")
+            self.clearForm()
+
+            if self.update_event_combos_callback:
+                self.update_event_combos_callback()
+
+        except ValueError as e:
             QMessageBox.warning(self, "Error", str(e))
 
-    def _clear_form(self):
+    def clearForm(self):
         self.concert_name_input.clear()
         self.venue_input.clear()
-        self.date_input.clear()
+        self.date_input.setDateTime(QDateTime.currentDateTime().addDays(7))
         self.organizer_input.clear()
-        self.refundable_until_input.clear()
-        self.max_tickets_input.setText("5")
-        self.tix_count_input.setText("100")
-        self.tix_price_input.setText("50.0")
+        self.category_input.setText("Music")
+        self.description_input.setText("A fantastic live event")
+        self.max_tickets_input.setText("4")
+        self.refundable_until_input.setDateTime(QDateTime.currentDateTime().addDays(6))
+        self.cooldown_input.setText("30")
+
+        for ttype in TicketType:
+            if ttype == TicketType.REGULAR:
+                self.ticket_count_inputs[ttype].setText("10")
+                self.ticket_price_inputs[ttype].setText("50.0")
+            else:
+                self.ticket_count_inputs[ttype].setText("5")
+                self.ticket_price_inputs[ttype].setText("80.0")

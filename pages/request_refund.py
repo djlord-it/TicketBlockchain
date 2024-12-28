@@ -1,7 +1,4 @@
-# pages/request_refund.py
-
 from PyQt6.QtWidgets import QWidget, QVBoxLayout, QLabel, QLineEdit, QPushButton, QMessageBox
-from PyQt6.QtCore import Qt
 from blockchain_ticketing import TicketingBlockchain
 
 
